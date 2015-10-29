@@ -48,3 +48,33 @@ table {
 }
 
 /* ==========END OF CSS RESET========== */
+
+
+/* MENU STYLES */
+
+/* ==== MENU BUTTONS ==== */
+.menu-bar {
+	text-align: center;	
+}
+
+li.item-1-btn {
+    display: inline;
+    margin-right: 3em;
+}
+
+li.item-2-btn {
+    display: inline;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+li.item-3-btn {
+    display: inline;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+li.item-4-btn {
+    display: inline;
+    margin-left: 3em;
+}
