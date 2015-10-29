@@ -10,6 +10,14 @@ $(document).ready(function() {
 		clearPageAndDisplayClickedItem($(".item2content"));
 	});
 
+	$("#item3").click(function() {
+		clearPageAndDisplayClickedItem($(".item3content"));
+	});
+
+	$("#item4").click(function() {
+		clearPageAndDisplayClickedItem($(".item4content"));
+	});
+
 	var clearPageAndDisplayClickedItem = function (itemToDisplay) {
 		if (lastItemClicked != undefined) {
 			lastItemClicked.toggleClass("notvisible");
