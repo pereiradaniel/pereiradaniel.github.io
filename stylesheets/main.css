@@ -57,24 +57,26 @@ table {
 	text-align: center;	
 }
 
-li.item-1-btn {
+li.item {
     display: inline;
     margin-right: 3em;
+    margin-left: 3em;
 }
 
-li.item-2-btn {
-    display: inline;
-    margin-left: 3em;
-    margin-right: 3em;
+#item1 {
 }
 
-li.item-3-btn {
-    display: inline;
-    margin-left: 3em;
-    margin-right: 3em;
+#item2 {
 }
 
-li.item-4-btn {
-    display: inline;
-    margin-left: 3em;
+#item3 {
+}
+
+#item4 {
+}
+
+/* VISIBLE/NOT VISIBLE */
+
+.notvisible {
+	display: none;
 }
