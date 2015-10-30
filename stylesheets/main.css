@@ -50,17 +50,22 @@ table {
 /* ==========END OF CSS RESET========== */
 
 
-/* MENU STYLES */
+/* ==== MENU STYLES ==== */
 
-/* ==== MENU BUTTONS ==== */
 .menu-bar {
-	text-align: center;	
+	text-align: center;
+	padding: 2em;	
 }
 
 li.item {
     display: inline;
     margin-right: 3em;
     margin-left: 3em;
+}
+
+li:hover.item {
+	background-color: lime;
+	color:black;
 }
 
 #item1 {
@@ -75,8 +80,46 @@ li.item {
 #item4 {
 }
 
-/* VISIBLE/NOT VISIBLE */
-
 .notvisible {
 	display: none;
+}
+/* ==== END MENU STYLES ==== */
+
+/* ==== APP DEMOS ==== */
+
+a.demo-links {
+	text-decoration: none;
+}
+
+a:hover.demo-links {
+	text-shadow: 0px 0px 5px lime;
+}
+
+.content-pages {
+	margin-top: 3em;
+}
+
+/* ==== CONTAINER/GRID SYSTEM ==== */
+
+.container {
+	max-width: 20em;
+	margin-right: 5em;
+	margin-left: 5em;
+}
+
+/* ==== TYPOGRAPHY ==== */
+
+h1 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 12px;
+}
+
+/* ==== STYLE PROPERTIES ==== */
+
+html {
+	background-color: black;
+	color: lime;
 }
