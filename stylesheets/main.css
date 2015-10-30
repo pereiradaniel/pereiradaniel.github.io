@@ -49,24 +49,48 @@ table {
 
 /* ==========END OF CSS RESET========== */
 
+/* ==== TYPOGRAPHY ==== */
+
+html {
+	font-family: 'Ubuntu mono';
+}
 
 /* ==== MENU STYLES ==== */
+@media only screen and (min-width: 930px) {
+	li.item {
+			font-size: 1.25em;
+	    display: inline;
+	    margin-right: 5em;
+	    margin-left: 5em;
+	}
+}
+
+@media only screen and (min-width: 510px) {
+	li.item {
+			display: inline;
+	    margin-right: 1em;
+	    margin-left: 1em;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	li.item {
+		display: block;
+	    margin-right: 0em;
+	    margin-left: 0em;
+	}
+}
 
 .menu-bar {
 	text-align: center;
 	padding: 2em;	
 }
 
-li.item {
-    display: inline;
-    margin-right: 3em;
-    margin-left: 3em;
-}
-
 li:hover.item {
 	background-color: lime;
 	color:black;
 }
+
 
 #item1 {
 }
@@ -93,6 +117,10 @@ a.demo-links {
 
 a:hover.demo-links {
 	text-shadow: 0px 0px 5px lime;
+}
+
+a:visited.demo-links {
+	color: lime;
 }
 
 .content-pages {
