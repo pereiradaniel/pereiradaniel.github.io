@@ -228,7 +228,7 @@ p {
 /* ==== STYLE PROPERTIES ==== */
 
 html {
-	/*background-color: black;*/
+	background-color: black;
 	color: lime;
 }
 
@@ -241,9 +241,9 @@ html {
 	    background-attachment: fixed;
 	    background-position: center top;
 	}
-
-	.menu-bar {
-
+	
+	.bar-fade {
+		background-color: rgba(0,0,0,0.8);
 	}
 	
 	.title {
@@ -264,11 +264,11 @@ html {
 	    background-attachment: fixed;
 	    background-position: center top;
 	}
-
-	.menu-bar {
-
-	}
 	
+	.bar-fade {
+		background-color: rgba(0,0,0,0.8);
+	}
+
 	.title {
 		display: block;
 		margin-bottom: 15em;
@@ -288,10 +288,10 @@ html {
 	    background-position: center top;
 	}
 
-	.menu-bar {
-
+	.bar-fade {
+		background-color: rgba(0,0,0,0.8);
 	}
-	
+
 	.title {
 		display: block;
 		margin-bottom: 10em;
@@ -309,9 +309,6 @@ html {
 	    background-size: 100%;
 	    background-attachment: fixed;
 	    background-position: center top;
-	}
-	
-	.menu-bar {
 	}
 	
 	.title {
