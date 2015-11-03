@@ -100,7 +100,7 @@ html {
 
 .menu-bar {
 	text-align: center;
-	padding: 0.25em;	
+	padding: 0.25em;
 }
 
 li:hover.item {
@@ -140,6 +140,10 @@ p.paragraph {
 	margin-bottom: 1em;
 }
 
+h2 {
+	font-size: 20px;
+}
+
 /* ==== APP DEMOS ==== */
 
 .demo-links {
@@ -160,7 +164,7 @@ p.paragraph {
 }
 
 .content-pages {
-	margin-top: 3em;
+	margin-top: 1em;
 }
 
 @media only screen and (min-width: 960px) {
@@ -228,10 +232,103 @@ html {
 	color: lime;
 }
 
-body { 
-    background-image: url('banner.JPG');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;
-    background-position: center top; 
+
+@media only screen and (min-width: 960px) {
+	header { 
+	    background-image: url('banner.JPG');
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	    background-position: center top;
+	}
+
+	.menu-bar {
+
+	}
+	
+	.title {
+		display: block;
+		margin-bottom: 20em;
+	}
+
+	.title h2 {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	header { 
+	    background-image: url('banner.JPG');
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	    background-position: center top;
+	}
+
+	.menu-bar {
+
+	}
+	
+	.title {
+		display: block;
+		margin-bottom: 15em;
+	}
+
+	.title h2 {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 639px) {
+	header { 
+	    background-image: url('banner.JPG');
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	    background-position: center top;
+	}
+
+	.menu-bar {
+
+	}
+	
+	.title {
+		display: block;
+		margin-bottom: 10em;
+	}
+
+	.title h2 {
+		font-size: 2em;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 399px) {
+	header { 
+	    background-image: url('banner.JPG');
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	    background-position: center top;
+	}
+	
+	.menu-bar {
+	}
+	
+	.title {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	header { 
+	    background-image: url('banner.JPG');
+	    background-repeat: no-repeat;
+	    background-size: 100%;
+	    background-attachment: fixed;
+	    background-position: center top; 
+	}
+	
+	.title {
+		display: none;
+	}
 }
