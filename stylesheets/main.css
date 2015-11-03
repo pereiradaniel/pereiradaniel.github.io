@@ -103,11 +103,14 @@ html {
 	padding: 0.25em;
 }
 
+li.item {
+	transition: color 1s, background-color 1s;
+}
+
 li:hover.item {
 	background-color: lime;
 	color:black;
 }
-
 
 #item1 {
 }
@@ -144,6 +147,27 @@ h2 {
 	font-size: 20px;
 }
 
+h1 {
+	font-size: 18px;
+}
+
+p {
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0.25em;
+	background-color: rgba(255,255,255,0.1);
+	border-radius: 3px;
+	box-shadow: 3px 3px 3px rgba(255,0,0,0.1);
+}
+
+.content-pages {
+	margin-top: 1em;
+}
+
+.content-pages h1 {
+	background-color: lime;
+	color: black;
+}
 /* ==== APP DEMOS ==== */
 
 .demo-links {
@@ -163,9 +187,6 @@ h2 {
 	color: lime;
 }
 
-.content-pages {
-	margin-top: 1em;
-}
 
 @media only screen and (min-width: 960px) {
 	.container {
@@ -215,15 +236,6 @@ h2 {
 	width: 30em;
 }*/
 
-/* ==== TYPOGRAPHY ==== */
-
-h1 {
-	font-size: 18px;
-}
-
-p {
-	font-size: 12px;
-}
 
 /* ==== STYLE PROPERTIES ==== */
 
@@ -245,7 +257,7 @@ html {
 	.bar-fade {
 		background-color: rgba(0,0,0,0.8);
 	}
-	
+
 	.title {
 		display: block;
 		margin-bottom: 20em;
