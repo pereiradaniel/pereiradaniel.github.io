@@ -107,7 +107,11 @@ li:hover.item {
 .notvisible {
 	display: none;
 }
-/* ==== END MENU STYLES ==== */
+
+.social-media-links a {
+	text-decoration: none;
+	color: lime;
+}
 
 /* ==== APP DEMOS ==== */
 
@@ -148,6 +152,14 @@ p {
 /* ==== STYLE PROPERTIES ==== */
 
 html {
-	background-color: black;
+	/*background-color: black;*/
 	color: lime;
+}
+
+body { 
+    background-image: url('banner.JPG');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-position: center top; 
 }
