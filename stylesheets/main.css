@@ -56,34 +56,51 @@ html {
 }
 
 /* ==== MENU STYLES ==== */
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 960px) {
 	li.item {
-			font-size: 1.25em;
-	    display: inline;
-	    margin-right: 8em;
-	    margin-left: 8em;
+			font-size: 1.3em;
+			display: inline;
+	    margin-right: 3em;
+	    margin-left: 3em;
 	}
 }
 
-@media only screen and (min-width: 510px) {
+@media only screen and (min-width: 640px) and (max-width: 959px) {
 	li.item {
+			font-size: 1.25em;
 			display: inline;
 	    margin-right: 1em;
 	    margin-left: 1em;
 	}
 }
 
+@media only screen and (min-width: 400px) and (max-width: 639px) {
+	li.item {
+			display: inline;
+	    margin-right: 0.25em;
+	    margin-left: 0.25em;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 399px) {
+	li.item {
+		display: block;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+	}
+}
+
 @media only screen and (max-width: 320px) {
 	li.item {
 		display: block;
-	    margin-right: 0em;
-	    margin-left: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
 	}
 }
 
 .menu-bar {
 	text-align: center;
-	padding: 2em;	
+	padding: 0.25em;	
 }
 
 li:hover.item {
@@ -113,17 +130,32 @@ li:hover.item {
 	color: lime;
 }
 
+.social-media-links {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+p.paragraph {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
 /* ==== APP DEMOS ==== */
 
-a.demo-links {
+.demo-links {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.demo-links a {
 	text-decoration: none;
 }
 
-a:hover.demo-links {
+.demo-links a:hover {
 	text-shadow: 0px 0px 5px lime;
 }
 
-a:visited.demo-links {
+.demo-links a:visited {
 	color: lime;
 }
 
@@ -131,13 +163,53 @@ a:visited.demo-links {
 	margin-top: 3em;
 }
 
+@media only screen and (min-width: 960px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 639px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 399px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
+}
+
 /* ==== CONTAINER/GRID SYSTEM ==== */
 
-.container {
-	max-width: 20em;
-	margin-right: 5em;
-	margin-left: 5em;
-}
+/*.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 30em;
+}*/
 
 /* ==== TYPOGRAPHY ==== */
 
