@@ -104,12 +104,18 @@ html {
 }
 
 li.item {
-	transition: color 1s, background-color 1s;
+	transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
 }
 
 li:hover.item {
 	background-color: lime;
 	color:black;
+	box-shadow: 0px 0px 15px rgba(0,255,0,0.7);
+}
+
+.bordered-item {
+	border-top: 1px solid lime;
+	background-color: rgba(0,255,0,0.2);
 }
 
 #item1 {
@@ -157,7 +163,7 @@ p {
 	padding: 0.25em;
 	background-color: rgba(255,255,255,0.1);
 	border-radius: 3px;
-	box-shadow: 3px 3px 3px rgba(255,0,0,0.1);
+	box-shadow: 3px 3px 3px rgba(0,255,0,0.1);
 }
 
 .content-pages {
