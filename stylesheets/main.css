@@ -134,19 +134,21 @@ li:hover.item {
 	display: none;
 }
 
-.social-media-links a {
-	text-decoration: none;
-	color: lime;
+.paragraph-title {
+	padding: 0.4em;
+	border-top: 1px solid rgba(0,255,0,0.3);
+	background-color: rgba(0,255,0,0.1);
 }
 
-.social-media-links {
-	margin-top: 1em;
-	margin-bottom: 1em;
-}
-
-p.paragraph {
-	margin-top: 1em;
-	margin-bottom: 1em;
+.paragraph {
+	margin-top: 0.75em;
+	margin-bottom: 1.25em;
+	font-size: 16px;
+	font-weight: 100;
+	padding: 0.25em;
+	/*background-color: rgba(0,255,0,0.1);*/
+	border-radius: 3px;
+	/*box-shadow: 3px 3px 3px rgba(0,255,0,0.1);*/
 }
 
 h2 {
@@ -155,15 +157,6 @@ h2 {
 
 h1 {
 	font-size: 18px;
-}
-
-p {
-	font-size: 16px;
-	font-weight: 100;
-	padding: 0.25em;
-	background-color: rgba(255,255,255,0.1);
-	border-radius: 3px;
-	box-shadow: 3px 3px 3px rgba(0,255,0,0.1);
 }
 
 .content-pages {
@@ -177,23 +170,137 @@ p {
 /* ==== APP DEMOS ==== */
 
 .demo-links {
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
 }
 
 .demo-links a {
+	padding: 0.5em;
 	text-decoration: none;
+	border: 1px solid lime;
+	transition: background-color 0.5s;
 }
 
 .demo-links a:hover {
-	text-shadow: 0px 0px 5px lime;
+	background-color: rgba(0,255,0,0.1);
 }
 
 .demo-links a:visited {
 	color: lime;
 }
 
+/* ==== Homegrown ==== */
+.homegrown-menu-links a {
+	text-decoration: none;
+	color: lime;
+}
 
+.homegrown-menu-links {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-align: center;
+	padding: 0.5em;
+}
+
+@media only screen and (min-width: 960px) {
+	.homegrown-menu-links li {
+		display: inline;
+
+	}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.homegrown-menu-links li {
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 399px) {
+	.homegrown-menu-links li {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.homegrown-menu-links li {
+		display: block;
+	}
+}
+
+.homegrown-menu-links li {
+	font-size: 1.2em;
+	margin-right: 0.25em;
+	margin-left: 0.25em;
+	border: 1px solid lime;
+	padding: 0.5em;
+	transition: color 0.5s, background-color 0.5s;
+}
+
+.homegrown-menu-links li:hover {
+	background-color: rgba(0,255,0,0.1);
+}
+
+/* ==== Contacts ==== */
+
+.social-media-links {
+	margin-top: 3em;
+}
+
+@media only screen and (min-width: 960px) {
+	.social-media-links li {
+		display: inline;
+		border: 1px solid lime;
+		padding: 1.5em;
+		transition: color 0.5s, background-color 0.5s;
+	}
+}
+
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	.social-media-links li {
+		display: block;
+		border: 1px solid lime;
+		padding: 1.5em;
+		transition: color 0.5s, background-color 0.5s;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 639px) {
+	.social-media-links li {
+		display: block;
+		border: 1px solid lime;
+		padding: 1.5em;
+		transition: color 0.5s, background-color 0.5s;
+	}
+}
+
+@media only screen and (min-width: 321px) and (max-width: 399px) {
+	.social-media-links li {
+		display: block;
+		border: 1px solid lime;
+		padding: 1.25em;
+		transition: color 0.5s, background-color 0.5s;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+	.social-media-links li {
+		display: block;
+		border: 1px solid lime;
+		padding: 0.5em;
+		transition: color 0.5s, background-color 0.5s;
+	}
+}
+
+.social-media-links li:hover {
+	background-color: rgba(0,255,0,0.1);
+}
+
+.social-media-links a {
+	text-decoration: none;
+	color: lime;
+}
+
+/* ==== Container ==== */
 @media only screen and (min-width: 960px) {
 	.container {
 		margin-left: auto;
@@ -234,15 +341,6 @@ p {
 	}
 }
 
-/* ==== CONTAINER/GRID SYSTEM ==== */
-
-/*.container {
-	margin-left: auto;
-	margin-right: auto;
-	width: 30em;
-}*/
-
-
 /* ==== STYLE PROPERTIES ==== */
 
 html {
@@ -266,7 +364,7 @@ html {
 
 	.title {
 		display: block;
-		margin-bottom: 20em;
+		margin-bottom: 10em;
 	}
 
 	.title h2 {
@@ -289,7 +387,7 @@ html {
 
 	.title {
 		display: block;
-		margin-bottom: 15em;
+		margin-bottom: 5em;
 	}
 
 	.title h2 {
@@ -312,7 +410,7 @@ html {
 
 	.title {
 		display: block;
-		margin-bottom: 10em;
+		margin-bottom: 2.5em;
 	}
 
 	.title h2 {
@@ -344,6 +442,12 @@ html {
 	}
 	
 	.title {
-		display: none;
+		display: block;
 	}
+}
+
+.title {
+	text-align: center;
+	background-color: rgba(0,255,0,0.1);
+	box-shadow: 0px 0px 2px rgba(0,255,0,0.9);
 }
