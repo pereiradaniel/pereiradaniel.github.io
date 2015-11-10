@@ -136,6 +136,7 @@ li:hover.item {
 
 .paragraph-title {
 	padding: 0.4em;
+	margin-top: 0.4em;
 	border-top: 1px solid rgba(0,255,0,0.3);
 	background-color: rgba(0,255,0,0.1);
 }
@@ -170,14 +171,18 @@ h1 {
 /* ==== APP DEMOS ==== */
 
 .demo-links {
+	padding: 0.5em;
 	margin-top: 1.5em;
 	margin-bottom: 1.5em;
 }
 
 .demo-links a {
+	display: inherit;
 	padding: 0.5em;
+	margin-bottom: 0.5em;
 	text-decoration: none;
 	border: 1px solid lime;
+	box-shadow: 3px 3px 3px rgba(0,255,0,0.4);
 	transition: background-color 0.5s;
 }
 
@@ -187,6 +192,13 @@ h1 {
 
 .demo-links a:visited {
 	color: lime;
+}
+
+.app-type {
+	font-size: 1.5em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	border-bottom: 1px dashed rgba(0,255,0,0.4);
 }
 
 /* ==== Homegrown ==== */
@@ -234,6 +246,7 @@ h1 {
 	border: 1px solid lime;
 	padding: 0.5em;
 	transition: color 0.5s, background-color 0.5s;
+	box-shadow: 3px 3px 3px rgba(0,255,0,0.4);
 }
 
 .homegrown-menu-links li:hover {
@@ -289,6 +302,10 @@ h1 {
 		padding: 0.5em;
 		transition: color 0.5s, background-color 0.5s;
 	}
+}
+
+.social-media-links li {
+	box-shadow: 3px 3px 3px rgba(0,255,0,0.4);
 }
 
 .social-media-links li:hover {
