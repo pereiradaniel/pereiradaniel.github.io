@@ -59,6 +59,7 @@ html {
 @media only screen and (min-width: 960px) {
 	li.item {
 			font-size: 1.3em;
+			padding: 0.2em;
 			display: inline;
 	    margin-right: 3em;
 	    margin-left: 3em;
@@ -67,7 +68,8 @@ html {
 
 @media only screen and (min-width: 640px) and (max-width: 959px) {
 	li.item {
-			font-size: 1.25em;
+			font-size: 1.3em;
+			padding: 0.2em;
 			display: inline;
 	    margin-right: 1em;
 	    margin-left: 1em;
@@ -76,6 +78,8 @@ html {
 
 @media only screen and (min-width: 400px) and (max-width: 639px) {
 	li.item {
+			font-size: 1em;
+			padding: 0.2em;
 			display: inline;
 	    margin-right: 0.25em;
 	    margin-left: 0.25em;
@@ -84,6 +88,8 @@ html {
 
 @media only screen and (min-width: 321px) and (max-width: 399px) {
 	li.item {
+		font-size: 1.35em;
+		padding: 0.4em;
 		display: block;
     margin-right: 0.25em;
     margin-left: 0.25em;
@@ -92,6 +98,8 @@ html {
 
 @media only screen and (max-width: 320px) {
 	li.item {
+		font-size: 1.25em;
+		padding: 0.4em;
 		display: block;
     margin-right: 0em;
     margin-left: 0em;
