@@ -49,24 +49,47 @@ table {
 
 /* ==========END OF CSS RESET========== */
 
+
 /* ==== TYPOGRAPHY ==== */
 
+@font-face {
+  font-family: "Arcade";
+  src: url(ARCADE_I.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Arcade N";
+  src: url(ARCADE_N.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Arcade R";
+  src: url(ARCADE_R.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Believer";
+  src: url(BELIEVER.TTF) format("truetype");
+}
+@font-face {
+  font-family: "Digitale";
+  src: url(DIGITALE.TTF) format("truetype");
+}
+@font-face {
+  font-family: "DS-TERM";
+  src: url(DS-TERM.TTF) format("truetype");
+}
 html {
 	font-family: 'Ubuntu mono';
 }
 
-/* ==== MENU STYLES ==== */
-@media only screen and (min-width: 960px) {
-	li.item {
-			font-size: 1.3em;
-			padding: 0.2em;
-			display: inline;
-	    margin-right: 3em;
-	    margin-left: 3em;
-	}
+#item1, #item2, #item3, #item4 {
+	font-family: 'Arcade';
+}
+.title {
+	font-family: 'Arcade R';
+	font-size: 0.9em;
 }
 
-@media only screen and (min-width: 640px) and (max-width: 959px) {
+/* ==== MENU STYLES ==== */
+@media only screen and (min-width: 960px) {
 	li.item {
 			font-size: 1.3em;
 			padding: 0.2em;
@@ -76,10 +99,20 @@ html {
 	}
 }
 
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+	li.item {
+			font-size: 0.9em;
+			padding: 0.2em;
+			display: inline;
+	    margin-right: 0.5em;
+	    margin-left: 0.5em;
+	}
+}
+
 @media only screen and (min-width: 400px) and (max-width: 639px) {
 	li.item {
-			font-size: 1em;
-			padding: 0.2em;
+			font-size: 0.5em;
+			padding: 0.1em;
 			display: inline;
 	    margin-right: 0.25em;
 	    margin-left: 0.25em;
@@ -88,7 +121,7 @@ html {
 
 @media only screen and (min-width: 321px) and (max-width: 399px) {
 	li.item {
-		font-size: 1.35em;
+		font-size: 0.5em;
 		padding: 0.4em;
 		display: block;
     margin-right: 0.25em;
