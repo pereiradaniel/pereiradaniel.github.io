@@ -53,6 +53,14 @@ table {
 /* ==== TYPOGRAPHY ==== */
 
 @font-face {
+  font-family: "Font-awesome";
+  src: url(fontawesome-webfont.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Ubuntu-mono";
+  src: url(UbuntuMono-R.ttf) format("truetype");
+}
+@font-face {
   font-family: "Arcade";
   src: url(ARCADE_I.TTF) format("truetype");
 }
@@ -77,15 +85,23 @@ table {
   src: url(DS-TERM.TTF) format("truetype");
 }
 html {
-	font-family: 'Ubuntu mono';
+	font-family: 'Ubuntu-mono';
 }
 
 #item1, #item2, #item3, #item4 {
-	font-family: 'Arcade';
+	font-family: 'Ubuntu-mono';
 }
 .title {
+	color: #80bd01;
 	font-family: 'Arcade R';
 	font-size: 0.9em;
+	text-align: center;
+	background-color: #333;
+}
+
+.header-container {
+	background-color: #333;
+	padding: 1em;
 }
 
 /* ==== MENU STYLES ==== */
@@ -141,22 +157,26 @@ html {
 
 .menu-bar {
 	text-align: center;
-	padding: 0.25em;
+	margin-top: 1em;
+	/* padding: 0.25em; */
 }
 
 li.item {
+	color: #fff;
+	padding: 0.5em;
+	/* border: 1px solid #80bd01; */
+	background-color: #333;
+	border-radius: 1px;
 	transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
 }
 
 li:hover.item {
-	background-color: lime;
-	color:black;
-	box-shadow: 0px 0px 15px rgba(0,255,0,0.7);
+	background-color: #80bd01;
+	color:#fff;
 }
 
 .bordered-item {
-	border-top: 1px solid lime;
-	background-color: rgba(0,255,0,0.2);
+	background-color: rgba(51,51,51,0.2);
 }
 
 #item1 {
@@ -178,8 +198,8 @@ li:hover.item {
 .paragraph-title {
 	padding: 0.4em;
 	margin-top: 0.4em;
-	border-top: 1px solid rgba(0,255,0,0.3);
-	background-color: rgba(0,255,0,0.1);
+	border-top: 1px solid rgba(128,189,1,0.3);
+	background-color: rgba(128,189,1,0.1);
 }
 
 .paragraph {
@@ -206,8 +226,10 @@ h1 {
 }
 
 .content-pages h1 {
-	background-color: lime;
-	color: black;
+	background-color: #333;
+	color: #fff;
+	padding: 0.5em;
+	border-radius: 1px;
 }
 /* ==== APP DEMOS ==== */
 
@@ -219,40 +241,46 @@ h1 {
 
 .demo-links a {
 	display: inherit;
+	border-radius: 1px;
+	background-color: #80bd01;
+	color: #fff;
 	padding: 0.5em;
 	margin-bottom: 0.5em;
 	text-decoration: none;
-	border: 1px solid lime;
-	box-shadow: 3px 3px 3px rgba(0,255,0,0.4);
+	box-shadow: 3px 3px 3px rgba(128,189,1,0.4);
 	transition: background-color 0.5s;
 }
 
 .demo-links a:hover {
-	background-color: rgba(0,255,0,0.1);
+	background-color: rgba(51,51,51,0.9);
 }
 
 .demo-links a:visited {
-	color: lime;
+	color: #fff;
 }
 
 .app-type {
 	font-size: 1.5em;
 	margin-top: 0.5em;
 	margin-bottom: 0.5em;
-	border-bottom: 1px dashed rgba(0,255,0,0.4);
+	border-bottom: 1px dashed rgba(128,189,1,0.4);
 }
 
 /* ==== Homegrown ==== */
-.homegrown-menu-links a {
-	text-decoration: none;
-	color: lime;
-}
-
 .homegrown-menu-links {
-	margin-top: 1em;
-	margin-bottom: 1em;
 	text-align: center;
+	margin-top: 1em;
+}
+.homegrown-menu-links a {
+	display: inherit;
+	border-radius: 1px;
+	background-color: #80bd01;
+	color: #fff;
 	padding: 0.5em;
+	margin-bottom: 0.5em;
+	text-decoration: none;
+	box-shadow: 3px 3px 3px rgba(128,189,1,0.4);
+	transition: background-color 0.5s;
 }
 
 @media only screen and (min-width: 960px) {
@@ -280,18 +308,9 @@ h1 {
 	}
 }
 
-.homegrown-menu-links li {
-	font-size: 1.2em;
-	margin-right: 0.25em;
-	margin-left: 0.25em;
-	border: 1px solid lime;
-	padding: 0.5em;
-	transition: color 0.5s, background-color 0.5s;
-	box-shadow: 3px 3px 3px rgba(0,255,0,0.4);
-}
 
-.homegrown-menu-links li:hover {
-	background-color: rgba(0,255,0,0.1);
+.homegrown-menu-links a:hover {
+	background-color: #333333;
 }
 
 /* ==== Contacts ==== */
@@ -303,59 +322,58 @@ h1 {
 @media only screen and (min-width: 960px) {
 	.social-media-links li {
 		display: inline;
-		border: 1px solid lime;
 		padding: 1.5em;
-		transition: color 0.5s, background-color 0.5s;
 	}
 }
 
 @media only screen and (min-width: 640px) and (max-width: 959px) {
 	.social-media-links li {
 		display: block;
-		border: 1px solid lime;
 		padding: 1.5em;
-		transition: color 0.5s, background-color 0.5s;
 	}
 }
 
 @media only screen and (min-width: 400px) and (max-width: 639px) {
 	.social-media-links li {
 		display: block;
-		border: 1px solid lime;
 		padding: 1.5em;
-		transition: color 0.5s, background-color 0.5s;
 	}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 399px) {
 	.social-media-links li {
 		display: block;
-		border: 1px solid lime;
 		padding: 1.25em;
-		transition: color 0.5s, background-color 0.5s;
 	}
 }
 
 @media only screen and (max-width: 320px) {
 	.social-media-links li {
 		display: block;
-		border: 1px solid lime;
 		padding: 0.5em;
-		transition: color 0.5s, background-color 0.5s;
 	}
 }
 
 .social-media-links li {
-	box-shadow: 3px 3px 3px rgba(0,255,0,0.4);
+	display: inherit;
+	border-radius: 1px;
+	background-color: #80bd01;
+	color: #fff;
+	padding: 0.5em;
+	margin-bottom: 0.5em;
+	text-decoration: none;
+	box-shadow: 3px 3px 3px rgba(128,189,1,0.4);
+	transition: color 0.5s, background-color 0.5s;
+	transition: background-color 0.5s;
 }
 
 .social-media-links li:hover {
-	background-color: rgba(0,255,0,0.1);
+	background-color: #333333;
 }
 
 .social-media-links a {
 	text-decoration: none;
-	color: lime;
+	color: #fff;
 }
 
 /* ==== Container ==== */
@@ -402,27 +420,22 @@ h1 {
 /* ==== STYLE PROPERTIES ==== */
 
 html {
-	background-color: black;
-	color: lime;
+	background-color: #fff;
+	color: #333333;
 }
 
 
 @media only screen and (min-width: 960px) {
 	header { 
-	    background-image: url('banner.JPG');
+	    /* background-image: url('banner.JPG'); */
 	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	    background-position: center top;
 	}
 	
-	.bar-fade {
-		background-color: rgba(0,0,0,0.8);
-	}
-
 	.title {
 		display: block;
-		margin-bottom: 10em;
 	}
 
 	.title h2 {
@@ -432,20 +445,15 @@ html {
 
 @media only screen and (min-width: 640px) and (max-width: 959px) {
 	header { 
-	    background-image: url('banner.JPG');
+	    /* background-image: url('banner.JPG'); */
 	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	    background-position: center top;
 	}
 	
-	.bar-fade {
-		background-color: rgba(0,0,0,0.8);
-	}
-
 	.title {
 		display: block;
-		margin-bottom: 5em;
 	}
 
 	.title h2 {
@@ -455,20 +463,15 @@ html {
 
 @media only screen and (min-width: 400px) and (max-width: 639px) {
 	header { 
-	    background-image: url('banner.JPG');
+	    /* background-image: url('banner.JPG'); */
 	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
 	    background-position: center top;
 	}
 
-	.bar-fade {
-		background-color: rgba(0,0,0,0.8);
-	}
-
 	.title {
 		display: block;
-		margin-bottom: 2.5em;
 	}
 
 	.title h2 {
@@ -478,7 +481,7 @@ html {
 
 @media only screen and (min-width: 321px) and (max-width: 399px) {
 	header { 
-	    background-image: url('banner.JPG');
+	    /* background-image: url('banner.JPG'); */
 	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -492,7 +495,7 @@ html {
 
 @media only screen and (max-width: 320px) {
 	header { 
-	    background-image: url('banner.JPG');
+	    /* background-image: url('banner.JPG'); */
 	    background-repeat: no-repeat;
 	    background-size: 100%;
 	    background-attachment: fixed;
@@ -502,10 +505,4 @@ html {
 	.title {
 		display: block;
 	}
-}
-
-.title {
-	text-align: center;
-	background-color: rgba(0,255,0,0.1);
-	box-shadow: 0px 0px 2px rgba(0,255,0,0.9);
 }
