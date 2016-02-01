@@ -92,6 +92,26 @@ html {
 	font-family: 'Font-awesome';
 }
 
+.social-media-bar {
+	text-decoration: none;
+	text-align: center;
+	margin-top: 1em;
+	color: #80bd01;
+}
+
+.social-media-link {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
+	color: #80bd01;
+	transition: color 0.5s;
+}
+
+.social-media-link:hover {
+	color: #fff;
+}
+
+
+
 #item1, #item2, #item3, #item4 {
 	font-family: 'Ubuntu-mono';
 }
