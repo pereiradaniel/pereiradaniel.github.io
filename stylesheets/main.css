@@ -54,38 +54,21 @@ table {
 
 @font-face {
   font-family: "Font-awesome";
-  src: url(fontawesome-webfont.ttf) format("truetype");
+  src: url(../fonts/fontawesome-webfont.ttf) format("truetype");
 }
 @font-face {
   font-family: "Ubuntu-mono";
-  src: url(UbuntuMono-R.ttf) format("truetype");
-}
-@font-face {
-  font-family: "Arcade";
-  src: url(ARCADE_I.TTF) format("truetype");
-}
-@font-face {
-  font-family: "Arcade N";
-  src: url(ARCADE_N.TTF) format("truetype");
-}
-@font-face {
-  font-family: "Arcade R";
-  src: url(ARCADE_R.TTF) format("truetype");
+  src: url(../fonts/UbuntuMono-R.ttf) format("truetype");
 }
 @font-face {
   font-family: "Believer";
-  src: url(BELIEVER.TTF) format("truetype");
-}
-@font-face {
-  font-family: "Digitale";
-  src: url(DIGITALE.TTF) format("truetype");
-}
-@font-face {
-  font-family: "DS-TERM";
-  src: url(DS-TERM.TTF) format("truetype");
+  src: url(../fonts/BELIEVER.TTF) format("truetype");
 }
 html {
 	font-family: 'Ubuntu-mono';
+}
+a {
+	text-decoration: none;
 }
 
 .awesome {
@@ -109,7 +92,6 @@ html {
 .social-media-link:hover {
 	color: #fff;
 }
-
 
 
 #item1, #item2, #item3, #item4 {
