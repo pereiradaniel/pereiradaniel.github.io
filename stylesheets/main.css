@@ -70,33 +70,25 @@ html {
 a {
 	text-decoration: none;
 }
+h1 {
+	font-size: 18px;
+}
+h2 {
+	font-size: 20px;
+}
 
+
+/* FONTS */
 .awesome {
 	font-family: 'Font-awesome';
 }
-
-.social-media-bar {
-	text-decoration: none;
-	text-align: center;
-	margin-top: 1em;
-	color: #80bd01;
-}
-
-.social-media-link {
-	padding-right: 0.5em;
-	padding-left: 0.5em;
-	color: #80bd01;
-	transition: color 0.5s;
-}
-
-.social-media-link:hover {
-	color: #fff;
-}
-
-
-#item1, #item2, #item3, #item4 {
+.ubuntu-mono {
 	font-family: 'Ubuntu-mono';
 }
+.centered-text {
+	text-align: center;
+}
+/* DOM NODE STYLES */
 .title {
 	color: #80bd01;
 	font-family: 'Believer';
@@ -104,10 +96,32 @@ a {
 	text-align: center;
 	background-color: #333;
 }
+.transition-to-white {
+	transition: color 0.5s;
+}
+.transition-to-white:hover {
+	color: #fff;
+}
 
-.header-container {
+/* COLORS */
+/* BACKGROUNDS */
+.node-grey-bgd {
 	background-color: #333;
+}
+/* TEXT */
+.node-green {
+	color: #80bd01;
+}
+/* MARGINS, BORDERS, PADDING STYLES */
+.base-padding {
 	padding: 1em;
+}
+.base-top-margin {
+	margin-top: 1em;
+}
+.link-padding {
+	padding-right: 0.5em;
+	padding-left: 0.5em;
 }
 
 /* ==== MENU STYLES ==== */
@@ -161,11 +175,6 @@ a {
 	}
 }
 
-.menu-bar {
-	text-align: center;
-	margin-top: 1em;
-	/* padding: 0.25em; */
-}
 
 li.item {
 	color: #fff;
@@ -182,19 +191,7 @@ li:hover.item {
 }
 
 .bordered-item {
-	background-color: rgba(51,51,51,0.2);
-}
-
-#item1 {
-}
-
-#item2 {
-}
-
-#item3 {
-}
-
-#item4 {
+	border-bottom: 1px solid #80bd01;
 }
 
 .notvisible {
@@ -219,14 +216,8 @@ li:hover.item {
 	/*box-shadow: 3px 3px 3px rgba(0,255,0,0.1);*/
 }
 
-h2 {
-	font-size: 20px;
-}
 
-h1 {
-	font-size: 18px;
-}
-
+/* PAGES */
 .content-pages {
 	margin-top: 1em;
 }
@@ -237,6 +228,17 @@ h1 {
 	padding: 0.5em;
 	border-radius: 1px;
 }
+
+.white {
+	color: #fff;
+}
+.base-border-radius {
+	border-radius: 1px;
+}
+.half-base-padding {
+	padding: 0.5em;
+}
+
 /* ==== APP DEMOS ==== */
 
 .demo-links {
