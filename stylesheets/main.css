@@ -114,14 +114,14 @@ h2 {
 }
 /* MARGINS, BORDERS, PADDING STYLES */
 .base-padding {
-	padding: 1em;
+	padding: 0.75em;
 }
 .base-top-margin {
 	margin-top: 1em;
 }
 .link-padding {
-	padding-right: 0.5em;
-	padding-left: 0.5em;
+	padding-right: 0.75em;
+	padding-left: 0.75em;
 }
 
 /* ==== MENU STYLES ==== */
