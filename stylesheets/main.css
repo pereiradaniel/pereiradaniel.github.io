@@ -125,57 +125,6 @@ h2 {
 }
 
 /* ==== MENU STYLES ==== */
-@media only screen and (min-width: 960px) {
-	li.item {
-			font-size: 1.3em;
-			padding: 0.2em;
-			display: inline;
-	    margin-right: 1em;
-	    margin-left: 1em;
-	}
-}
-
-@media only screen and (min-width: 640px) and (max-width: 959px) {
-	li.item {
-			font-size: 0.9em;
-			padding: 0.2em;
-			display: inline;
-	    margin-right: 0.5em;
-	    margin-left: 0.5em;
-	}
-}
-
-@media only screen and (min-width: 400px) and (max-width: 639px) {
-	li.item {
-			font-size: 0.5em;
-			padding: 0.1em;
-			display: inline;
-	    margin-right: 0.25em;
-	    margin-left: 0.25em;
-	}
-}
-
-@media only screen and (min-width: 321px) and (max-width: 399px) {
-	li.item {
-		font-size: 0.5em;
-		padding: 0.4em;
-		display: block;
-    margin-right: 0.25em;
-    margin-left: 0.25em;
-	}
-}
-
-@media only screen and (max-width: 320px) {
-	li.item {
-		font-size: 1.25em;
-		padding: 0.4em;
-		display: block;
-    margin-right: 0em;
-    margin-left: 0em;
-	}
-}
-
-
 li.item {
 	color: #fff;
 	padding: 0.5em;
@@ -215,8 +164,6 @@ li:hover.item {
 	border-radius: 3px;
 	/*box-shadow: 3px 3px 3px rgba(0,255,0,0.1);*/
 }
-
-
 /* PAGES */
 .content-pages {
 	margin-top: 1em;
@@ -365,6 +312,13 @@ li:hover.item {
 		display: inline;
 		padding: 1.5em;
 	}
+	li.item {
+			font-size: 1.3em;
+			padding: 0.2em;
+			display: inline;
+	    margin-right: 1em;
+	    margin-left: 1em;
+	}
 }
 
 @media only screen and (min-width: 640px) and (max-width: 959px) {
@@ -383,6 +337,13 @@ li:hover.item {
 	.social-media-links li {
 		display: block;
 		padding: 1.5em;
+	}
+	li.item {
+			font-size: 0.9em;
+			padding: 0.2em;
+			display: inline;
+	    margin-right: 0.5em;
+	    margin-left: 0.5em;
 	}
 }
 
@@ -403,6 +364,13 @@ li:hover.item {
 		display: block;
 		padding: 1.5em;
 	}
+	li.item {
+			font-size: 0.5em;
+			padding: 0.1em;
+			display: inline;
+	    margin-right: 0.25em;
+	    margin-left: 0.25em;
+	}
 }
 
 @media only screen and (min-width: 321px) and (max-width: 399px) {
@@ -418,6 +386,13 @@ li:hover.item {
 		display: block;
 		padding: 1.25em;
 	}
+	li.item {
+		font-size: 0.5em;
+		padding: 0.4em;
+		display: block;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -426,7 +401,6 @@ li:hover.item {
 		margin-right: auto;
 		width: 75%;
 	}
-@media only screen and (max-width: 320px) {
 	.title {
 		display: block;
 	}
@@ -434,6 +408,13 @@ li:hover.item {
 		display: block;
 		padding: 0.5em;
 	}
+	li.item {
+		font-size: 1.25em;
+		padding: 0.4em;
+		display: block;
+    margin-right: 0em;
+    margin-left: 0em;
+	}	
 }
 
 /* ==== STYLE PROPERTIES ==== */
