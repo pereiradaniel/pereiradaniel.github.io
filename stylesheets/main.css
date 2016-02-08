@@ -88,6 +88,11 @@ h2 {
 .centered-text {
 	text-align: center;
 }
+/* FONT STYLE */
+.underlined {
+	text-decoration: underline;
+}
+
 /* DOM NODE STYLES */
 .title {
 	color: #80bd01;
@@ -105,13 +110,27 @@ h2 {
 
 /* COLORS */
 /* BACKGROUNDS */
-.node-grey-bgd {
-	background-color: #333;
-}
-/* TEXT */
-.node-green {
-	color: #80bd01;
-}
+	.node-grey-bgd {
+		background-color: #333;
+	}
+	.node-green-bgd {
+		background-color: #80bd01;
+	}
+	/* TEXT */
+	.node-green {
+		color: #80bd01;
+	}
+	.node-grey {
+		color: #333;	
+	}
+	.white {
+		color: #fff;
+	}
+	/* SHADOWS, BORDERS */
+	.node-green-box-shadow {
+		box-shadow: 3px 3px 3px rgba(128,189,1,0.4);	
+	}
+
 /* MARGINS, BORDERS, PADDING STYLES */
 .base-padding {
 	padding: 0.75em;
@@ -119,9 +138,17 @@ h2 {
 .base-top-margin {
 	margin-top: 1em;
 }
-.link-padding {
-	padding-right: 0.75em;
-	padding-left: 0.75em;
+.base-bottom-margin {
+	margin-bottom: 1em;
+}
+.base-border-radius {
+	border-radius: 1px;
+}
+.half-base-padding {
+	padding: 0.5em;
+}
+.border-dashed-bottom {
+	border-bottom: 1px dashed rgba(128,189,1,0.4);
 }
 
 /* ==== MENU STYLES ==== */
@@ -133,20 +160,20 @@ li.item {
 	border-radius: 1px;
 	transition: color 0.5s, background-color 0.5s, box-shadow 0.5s;
 }
-
 li:hover.item {
 	background-color: #80bd01;
 	color:#fff;
 }
-
+.item-padding {
+	padding-right: 0.75em;
+	padding-left: 0.75em;
+}
 .bordered-item {
 	border-bottom: 1px solid #80bd01;
 }
-
 .notvisible {
 	display: none;
 }
-
 .paragraph-title {
 	padding: 0.4em;
 	margin-top: 0.4em;
@@ -164,61 +191,16 @@ li:hover.item {
 	border-radius: 3px;
 	/*box-shadow: 3px 3px 3px rgba(0,255,0,0.1);*/
 }
-/* PAGES */
-.content-pages {
-	margin-top: 1em;
-}
-
-.content-pages h1 {
-	background-color: #333;
-	color: #fff;
-	padding: 0.5em;
-	border-radius: 1px;
-}
-
-.white {
-	color: #fff;
-}
-.base-border-radius {
-	border-radius: 1px;
-}
-.half-base-padding {
-	padding: 0.5em;
-}
 
 /* ==== APP DEMOS ==== */
 
-.demo-links {
-	padding: 0.5em;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-}
-
-.demo-links a {
+/* LINK STYLES */
+.base-link {
 	display: inherit;
-	border-radius: 1px;
-	background-color: #80bd01;
-	color: #fff;
-	padding: 0.5em;
-	margin-bottom: 0.5em;
-	text-decoration: none;
-	box-shadow: 3px 3px 3px rgba(128,189,1,0.4);
 	transition: background-color 0.5s;
 }
-
-.demo-links a:hover {
+.base-link:hover {
 	background-color: rgba(51,51,51,0.9);
-}
-
-.demo-links a:visited {
-	color: #fff;
-}
-
-.app-type {
-	font-size: 1.5em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-	border-bottom: 1px dashed rgba(128,189,1,0.4);
 }
 
 /* ==== Homegrown ==== */
