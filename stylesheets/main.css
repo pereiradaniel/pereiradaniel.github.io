@@ -384,12 +384,19 @@ li:hover.item {
 	color: #fff;
 }
 
-/* ==== Container ==== */
+/* ==== MEDIA QUERIES ==== */
 @media only screen and (min-width: 960px) {
 	.container {
 		margin-left: auto;
 		margin-right: auto;
 		width: 75%;
+	}
+	.title {
+		display: block;
+	}
+
+	.title h2 {
+		font-size: 2em;
 	}
 }
 
@@ -399,6 +406,13 @@ li:hover.item {
 		margin-right: auto;
 		width: 75%;
 	}
+	.title {
+		display: block;
+	}
+
+	.title h2 {
+		font-size: 2em;
+	}
 }
 
 @media only screen and (min-width: 400px) and (max-width: 639px) {
@@ -406,6 +420,13 @@ li:hover.item {
 		margin-left: auto;
 		margin-right: auto;
 		width: 75%;
+	}
+	.title {
+		display: block;
+	}
+
+	.title h2 {
+		font-size: 2em;
 	}
 }
 
@@ -415,6 +436,9 @@ li:hover.item {
 		margin-right: auto;
 		width: 75%;
 	}
+	.title {
+		display: block;
+	}
 }
 
 @media only screen and (max-width: 320px) {
@@ -422,6 +446,10 @@ li:hover.item {
 		margin-left: auto;
 		margin-right: auto;
 		width: 75%;
+	}
+@media only screen and (max-width: 320px) {
+	.title {
+		display: block;
 	}
 }
 
@@ -430,87 +458,4 @@ li:hover.item {
 html {
 	background-color: #fff;
 	color: #333333;
-}
-
-
-@media only screen and (min-width: 960px) {
-	header { 
-	    /* background-image: url('banner.JPG'); */
-	    background-repeat: no-repeat;
-	    background-size: 100%;
-	    background-attachment: fixed;
-	    background-position: center top;
-	}
-	
-	.title {
-		display: block;
-	}
-
-	.title h2 {
-		font-size: 2em;
-	}
-}
-
-@media only screen and (min-width: 640px) and (max-width: 959px) {
-	header { 
-	    /* background-image: url('banner.JPG'); */
-	    background-repeat: no-repeat;
-	    background-size: 100%;
-	    background-attachment: fixed;
-	    background-position: center top;
-	}
-	
-	.title {
-		display: block;
-	}
-
-	.title h2 {
-		font-size: 2em;
-	}
-}
-
-@media only screen and (min-width: 400px) and (max-width: 639px) {
-	header { 
-	    /* background-image: url('banner.JPG'); */
-	    background-repeat: no-repeat;
-	    background-size: 100%;
-	    background-attachment: fixed;
-	    background-position: center top;
-	}
-
-	.title {
-		display: block;
-	}
-
-	.title h2 {
-		font-size: 2em;
-	}
-}
-
-@media only screen and (min-width: 321px) and (max-width: 399px) {
-	header { 
-	    /* background-image: url('banner.JPG'); */
-	    background-repeat: no-repeat;
-	    background-size: 100%;
-	    background-attachment: fixed;
-	    background-position: center top;
-	}
-	
-	.title {
-		display: block;
-	}
-}
-
-@media only screen and (max-width: 320px) {
-	header { 
-	    /* background-image: url('banner.JPG'); */
-	    background-repeat: no-repeat;
-	    background-size: 100%;
-	    background-attachment: fixed;
-	    background-position: center top; 
-	}
-	
-	.title {
-		display: block;
-	}
 }
