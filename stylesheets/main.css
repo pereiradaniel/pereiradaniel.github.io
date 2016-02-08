@@ -213,24 +213,18 @@ table {
 
 	@media only screen and (min-width: 400px) and (max-width: 639px) {
 		li.item {
-				display: inline;
-		    margin-right: 0.25em;
-		    margin-left: 0.25em;
+				display: block;
 		}
 	}
 
 	@media only screen and (min-width: 321px) and (max-width: 399px) {
 		li.item {
 			display: block;
-	    margin-right: 0.25em;
-	    margin-left: 0.25em;
 		}
 	}
 
 	@media only screen and (max-width: 320px) {
 		li.item {
 			display: block;
-	    margin-right: 0em;
-	    margin-left: 0em;
 		}	
 	}
