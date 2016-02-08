@@ -49,6 +49,11 @@ table {
 
 /* ==========END OF CSS RESET========== */
 
+/* ==== BASE PROPERTIES ==== */
+html {
+	background-color: #fff;
+	color: #333333;
+}
 
 /* ==== TYPOGRAPHY ==== */
 
@@ -76,8 +81,6 @@ h1 {
 h2 {
 	font-size: 20px;
 }
-
-
 /* FONTS */
 .awesome {
 	font-family: 'Font-awesome';
@@ -113,6 +116,9 @@ h2 {
 	.node-grey-bgd {
 		background-color: #333;
 	}
+	.node-grey-bgdt {
+		background-color: rgba(128,189,1,0.1);
+	}
 	.node-green-bgd {
 		background-color: #80bd01;
 	}
@@ -141,6 +147,11 @@ h2 {
 .base-bottom-margin {
 	margin-bottom: 1em;
 }
+.paragraph {
+	margin-top: 0.75em;
+	margin-bottom: 1.25em;
+	padding: 0.25em;
+}
 .base-border-radius {
 	border-radius: 1px;
 }
@@ -149,6 +160,9 @@ h2 {
 }
 .border-dashed-bottom {
 	border-bottom: 1px dashed rgba(128,189,1,0.4);
+}
+.border-top-solid {
+	border-top: 1px solid rgba(128,189,1,0.3);
 }
 
 /* ==== MENU STYLES ==== */
@@ -173,23 +187,6 @@ li:hover.item {
 }
 .notvisible {
 	display: none;
-}
-.paragraph-title {
-	padding: 0.4em;
-	margin-top: 0.4em;
-	border-top: 1px solid rgba(128,189,1,0.3);
-	background-color: rgba(128,189,1,0.1);
-}
-
-.paragraph {
-	margin-top: 0.75em;
-	margin-bottom: 1.25em;
-	font-size: 16px;
-	font-weight: 100;
-	padding: 0.25em;
-	/*background-color: rgba(0,255,0,0.1);*/
-	border-radius: 3px;
-	/*box-shadow: 3px 3px 3px rgba(0,255,0,0.1);*/
 }
 
 /* ==== APP DEMOS ==== */
@@ -220,61 +217,6 @@ li:hover.item {
 	transition: background-color 0.5s;
 }
 
-@media only screen and (min-width: 960px) {
-	.homegrown-menu-links li {
-		display: inline;
-	}
-}
-
-@media only screen and (min-width: 640px) and (max-width: 959px) {
-	.homegrown-menu-links li {
-		display: inline;
-	}
-}
-
-@media only screen and (min-width: 321px) and (max-width: 399px) {
-	.homegrown-menu-links li {
-		display: block;
-	}
-}
-
-@media only screen and (max-width: 320px) {
-	.homegrown-menu-links li {
-		display: block;
-	}
-}
-
-
-.homegrown-menu-links a:hover {
-	background-color: #333333;
-}
-
-/* ==== Contacts ==== */
-
-.social-media-links {
-	margin-top: 1em;
-}
-.social-media-links li {
-	display: inherit;
-	border-radius: 1px;
-	background-color: #80bd01;
-	color: #fff;
-	padding: 0.5em;
-	margin-bottom: 0.5em;
-	text-decoration: none;
-	box-shadow: 3px 3px 3px rgba(128,189,1,0.4);
-	transition: color 0.5s, background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
-.social-media-links li:hover {
-	background-color: #333333;
-}
-
-.social-media-links a {
-	text-decoration: none;
-	color: #fff;
-}
 
 /* ==== MEDIA QUERIES ==== */
 @media only screen and (min-width: 960px) {
@@ -316,10 +258,6 @@ li:hover.item {
 	.title h2 {
 		font-size: 2em;
 	}
-	.social-media-links li {
-		display: block;
-		padding: 1.5em;
-	}
 	li.item {
 			font-size: 0.9em;
 			padding: 0.2em;
@@ -342,10 +280,6 @@ li:hover.item {
 	.title h2 {
 		font-size: 2em;
 	}
-	.social-media-links li {
-		display: block;
-		padding: 1.5em;
-	}
 	li.item {
 			font-size: 0.5em;
 			padding: 0.1em;
@@ -363,10 +297,6 @@ li:hover.item {
 	}
 	.title {
 		display: block;
-	}
-	.social-media-links li {
-		display: block;
-		padding: 1.25em;
 	}
 	li.item {
 		font-size: 0.5em;
@@ -386,10 +316,6 @@ li:hover.item {
 	.title {
 		display: block;
 	}
-	.social-media-links li {
-		display: block;
-		padding: 0.5em;
-	}
 	li.item {
 		font-size: 1.25em;
 		padding: 0.4em;
@@ -397,11 +323,4 @@ li:hover.item {
     margin-right: 0em;
     margin-left: 0em;
 	}	
-}
-
-/* ==== STYLE PROPERTIES ==== */
-
-html {
-	background-color: #fff;
-	color: #333333;
 }
