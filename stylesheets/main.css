@@ -54,7 +54,11 @@ table {
 		background-color: #fff;
 		color: #333333;
 	}
-
+	.container {
+		margin-left: auto;
+		margin-right: auto;
+		width: 75%;
+	}
 /* ==== TYPOGRAPHY ==== */
 	@font-face {
 	  font-family: "Font-awesome";
@@ -192,11 +196,6 @@ table {
 
 /* ==== MEDIA QUERIES ==== */
 	@media only screen and (min-width: 960px) {
-		.container {
-			margin-left: auto;
-			margin-right: auto;
-			width: 75%;
-		}
 		li.item {
 				display: inline;
 		    margin-right: 1em;
@@ -205,11 +204,6 @@ table {
 	}
 
 	@media only screen and (min-width: 640px) and (max-width: 959px) {
-		.container {
-			margin-left: auto;
-			margin-right: auto;
-			width: 75%;
-		}
 		li.item {
 				display: inline;
 		    margin-right: 0.5em;
@@ -218,11 +212,6 @@ table {
 	}
 
 	@media only screen and (min-width: 400px) and (max-width: 639px) {
-		.container {
-			margin-left: auto;
-			margin-right: auto;
-			width: 75%;
-		}
 		li.item {
 				display: inline;
 		    margin-right: 0.25em;
@@ -231,11 +220,6 @@ table {
 	}
 
 	@media only screen and (min-width: 321px) and (max-width: 399px) {
-		.container {
-			margin-left: auto;
-			margin-right: auto;
-			width: 75%;
-		}
 		li.item {
 			display: block;
 	    margin-right: 0.25em;
@@ -244,11 +228,6 @@ table {
 	}
 
 	@media only screen and (max-width: 320px) {
-		.container {
-			margin-left: auto;
-			margin-right: auto;
-			width: 75%;
-		}
 		li.item {
 			display: block;
 	    margin-right: 0em;
