@@ -22,10 +22,10 @@ $(document).ready(function() {
 	var clearPageAndDisplayClickedItem = function (itemToDisplay, menuItemToBorder) {
 		if (lastItemClicked != undefined) {
 			lastItemClicked.toggleClass("notvisible");
-			lastMenuItemClicked.toggleClass("bordered-item");
+			lastMenuItemClicked.toggleClass("underlined");
 		}else{};
 			itemToDisplay.toggleClass("notvisible");
-			menuItemToBorder.toggleClass("bordered-item");
+			menuItemToBorder.toggleClass("underlined");
 			lastItemClicked = itemToDisplay;
 			lastMenuItemClicked = menuItemToBorder;
 	};
