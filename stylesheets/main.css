@@ -88,6 +88,9 @@ h2 {
 .ubuntu-mono {
 	font-family: 'Ubuntu-mono';
 }
+.believer {
+	font-family: 'Believer';
+}
 .centered-text {
 	text-align: center;
 }
@@ -97,13 +100,6 @@ h2 {
 }
 
 /* DOM NODE STYLES */
-.title {
-	color: #80bd01;
-	font-family: 'Believer';
-	font-size: 0.9em;
-	text-align: center;
-	background-color: #333;
-}
 .transition-to-white {
 	transition: color 0.5s;
 }
@@ -225,17 +221,6 @@ li:hover.item {
 		margin-right: auto;
 		width: 75%;
 	}
-	.title {
-		display: block;
-	}
-
-	.title h2 {
-		font-size: 2em;
-	}
-	.social-media-links li {
-		display: inline;
-		padding: 1.5em;
-	}
 	li.item {
 			font-size: 1.3em;
 			padding: 0.2em;
@@ -250,13 +235,6 @@ li:hover.item {
 		margin-left: auto;
 		margin-right: auto;
 		width: 75%;
-	}
-	.title {
-		display: block;
-	}
-
-	.title h2 {
-		font-size: 2em;
 	}
 	li.item {
 			font-size: 0.9em;
@@ -276,10 +254,6 @@ li:hover.item {
 	.title {
 		display: block;
 	}
-
-	.title h2 {
-		font-size: 2em;
-	}
 	li.item {
 			font-size: 0.5em;
 			padding: 0.1em;
@@ -295,9 +269,6 @@ li:hover.item {
 		margin-right: auto;
 		width: 75%;
 	}
-	.title {
-		display: block;
-	}
 	li.item {
 		font-size: 0.5em;
 		padding: 0.4em;
@@ -312,9 +283,6 @@ li:hover.item {
 		margin-left: auto;
 		margin-right: auto;
 		width: 75%;
-	}
-	.title {
-		display: block;
 	}
 	li.item {
 		font-size: 1.25em;
