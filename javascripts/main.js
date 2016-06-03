@@ -15,10 +15,6 @@ $(document).ready(function() {
 		clearPageAndDisplayClickedItem($(".item3content"), $(this));
 	});
 
-	$("#item4").click(function() {
-		clearPageAndDisplayClickedItem($(".item4content"), $(this));
-	});
-
 	var clearPageAndDisplayClickedItem = function (itemToDisplay, menuItemToBorder) {
 		if (lastItemClicked != undefined) {
 			lastItemClicked.toggleClass("notvisible");
