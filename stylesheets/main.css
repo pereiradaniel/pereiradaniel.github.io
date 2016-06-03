@@ -142,6 +142,9 @@ table {
 	.base-padding {
 		padding: 0.75em;
 	}
+	.no-padding {
+		padding: 0;
+	}
 	.base-top-margin {
 		margin-top: 1em;
 	}
