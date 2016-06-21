@@ -106,6 +106,18 @@ a {
 		border-bottom: 1px solid #8f908a;
 	}
 
+	.deployments-wrapper {
+		margin: auto;
+		width: 50%;
+	}
+	.deployment-section {
+		padding: 1em;
+		text-align: center;
+		display: inline-block;
+	}
+	.deployment-section img {
+		height: 300px;
+	}
 /* Elements */
 
 	.basicInfo {
