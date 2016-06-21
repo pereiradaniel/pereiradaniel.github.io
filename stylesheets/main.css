@@ -108,7 +108,7 @@ a {
 
 	.deployments-wrapper {
 		margin: auto;
-		width: 50%;
+		width: 90%;
 	}
 	.deployment-section {
 		padding: 1em;
@@ -116,7 +116,7 @@ a {
 		display: inline-block;
 	}
 	.deployment-section img {
-		width: 50%;
+		width: 80%;
 	}
 /* Elements */
 
