@@ -171,10 +171,10 @@ table {
 		margin-bottom: 0.5em;
 	}
 	#menu-list li a {
-		color: #f2f2f2;
+		color: #e6e6e6;
 	}
 	#menu-list li a:hover {
-		border-bottom: 1px solid #f2f2f2;
+		border-bottom: 1px solid #e6e6e6;
 	}
 
 	.notvisible {
@@ -182,5 +182,30 @@ table {
 	}
 
 	.menu-close-colour {
-		color: #f2f2f2;
+		color: #e6e6e6;
 	}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Colours
+	sublime green: #a3e22d;
+	sublime aqua: #66d9ef;
+	sublime white: #f8f8f2;
+	sublimee orange: #fd971f;
+	sublime pink: #f92672;
+	sublime yellow: #e6da61;
+	sublime grey: #272822;
+	sublime purple: #9281ff;
+	sublime light grey: #8f908a;
+	sublime dark grey: #464741;
+	sublime off-white: #e6e6e6;
+*/
