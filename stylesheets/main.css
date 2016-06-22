@@ -83,6 +83,10 @@ table {
 	.inline-block {
 		display: inline-block;
 	}
+	.name-header {
+		font-size: 2em;
+		text-align: center;
+	}
 
 
 /* Basic styles */
@@ -106,7 +110,10 @@ table {
 		padding-bottom: 2em;
 		border-bottom: 1px solid #8f908a;
 	}
-
+	.basic-unbordered-section {
+		padding-top: 2em;
+		padding-bottom: 2em;
+	}
 	.deployments-wrapper {
 		margin: auto;
 		width: 90%;
@@ -118,6 +125,11 @@ table {
 	}
 	.deployment-section img {
 		width: 80%;
+	}
+	.contacts-list {
+		text-align: center;
+		margin: auto;
+		width: 50%;
 	}
 /* Elements */
 
@@ -186,11 +198,13 @@ table {
 	}
 
 
-
-
-
-
-
+.close-icon {
+	text-align: center;
+	margin: 2em 0 2em 0;
+}
+.close-icon span a i {
+	color: #464741;
+}
 
 
 

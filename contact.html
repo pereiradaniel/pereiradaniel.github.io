@@ -2,9 +2,57 @@
 <html>
 <head>
 	<title>About</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<script src="jquery-2.1.4.min.js"></script>
+	<script src="javascripts/main.js"></script>
+	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/font-awesome.min.css">
 </head>
+
+<header>
+	<!-- MENU MASK -->
+	<div id="menu-mask">
+		<nav>
+			<p class="bar-menu"><i id="menu" class="fa fa-bars"></i></p>
+		</nav>
+	</div>
+	<!-- BASIC INFO -->
+		<section class="basic-unbordered-section">
+			<h1 class="name-header">Daniel Pereira</h1>
+				<section class="basic-unbordered-section">
+					<div class="contacts-list">
+						<i class="fa fa-twitter"></i>
+						<i class="fa fa-git"></i>
+						<i class="fa fa-medium"></i>
+						<i class="fa fa-linkedin"></i>
+					</div>
+				</section>
+			<div class="close-icon">
+				<span class="fa-stack fa-lg">
+					<a href="./index.html">
+						<i id="icon2" class="fa fa-circle-thin fa-stack-2x"></i>
+						<i id="icon1" class="fa fa-close fa-stack-1x"></i>
+					</a>
+				</span>
+			</div>
+		</section>
+
+</header>
+
 <body>
-	<h2>email: squashallbugs@gmail.com</h2>
-	<h2>twitter: @squashallbugs</h2>
+	<!-- HIDDEN MENU -->	
+	<div id="menu-options" class="notvisible">
+			<ul id="menu-list">
+				<li>
+					<a href="./about.html">About</a>
+				</li>
+				<li>
+					<a href="./contact.html">Contact</a>
+				</li>
+			</ul>
+	</div>
+
 </body>
+
+
 </html>
