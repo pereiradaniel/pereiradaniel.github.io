@@ -17,9 +17,9 @@ fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
 figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,5
+menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;5
+	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -53,9 +53,6 @@ table {
 
 /* ==========END OF CSS RESET========== */
 
-a {
-	text-decoration: none;
-}
 /* ==========END OF ADDED CSS RESET ========== */
 
 /* ==== FONTS ==== */
@@ -68,16 +65,14 @@ a {
 		font-family: 'Ubuntu-mono';
 	}
 
+/* ==== GLOBALS ==== */
 	body {
 		font-family: 'Ubuntu-mono';
-		background-color: #464741;
-		color: #f8f8f2;
+		background-color: #f8f8f2;
+		color: #464741;
 	}
-
-	img#profileimg {
-		height: 200px;
-		border-radius: 50%;
-		display: inline-block;
+	a {
+		text-decoration: none;
 	}
 
 
@@ -91,15 +86,19 @@ a {
 /* Basic styles */
 
 	.basic-button {
+		display: inline-block;
+		margin-top: 0.25em;
+		margin-bottom: 0.25em;
 		text-align: center;
 		padding: 0.5em;
-		border-radius: 3px;
+		border-radius: 2px;
 		/* sublime grey */
 			background-color: #66d9ef;
+	}
+	.basic-button a {
 		/* sublime white */
 			color: #f8f8f2;
 	}
-
 	.basic-section {
 		padding-top: 2em;
 		padding-bottom: 2em;
@@ -121,7 +120,15 @@ a {
 /* Elements */
 
 	.basicInfo {
-		padding:	1em;
 		margin: auto;
 		width: 50%;
+	}
+	.info-wrapper {
+		margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	img#profileimg {
+		height: 100px;
+		border-radius: 50%;
+		display: inline-block;
 	}
