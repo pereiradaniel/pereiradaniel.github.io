@@ -74,7 +74,9 @@ table {
 	a {
 		text-decoration: none;
 	}
-
+	nav {
+		margin: 1em;
+	}
 
 /* Re-usable */
 
@@ -132,6 +134,9 @@ table {
 		border-radius: 50%;
 		display: inline-block;
 	}
+	.bar-menu {
+		font-size: 30px;
+	}
 
 /* ==== MENU MASK ==== */
 	.masked {
@@ -142,4 +147,7 @@ table {
 		width: 100%;
 		position: fixed;
 		background-color: rgba(255, 0, 0, 0.3);
+	}
+	nav {
+		position: fixed;
 	}
