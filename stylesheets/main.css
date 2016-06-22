@@ -52,7 +52,16 @@ table {
 }
 
 /* ==========END OF CSS RESET========== */
-
+	input {
+		border: none;
+	}
+	textarea:focus, input:focus {
+		outline: none;
+	}
+	button {
+		border: none;
+		outline: none;
+	}
 /* ==========END OF ADDED CSS RESET ========== */
 
 /* ==== FONTS ==== */
@@ -87,10 +96,12 @@ table {
 		font-size: 2em;
 		text-align: center;
 	}
-
-
-/* Basic styles */
-
+	.contacts-list {
+		text-align: center;
+		padding: 2em;
+		margin: auto;
+		width: 50%;
+	}
 	.basic-button {
 		display: inline-block;
 		margin-top: 0.25em;
@@ -114,6 +125,13 @@ table {
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}
+	.alternate-section {
+		background-color: #e6e6e6;		
+	}
+
+
+/* Basic styles */
+
 	.deployments-wrapper {
 		margin: auto;
 		width: 90%;
@@ -125,11 +143,6 @@ table {
 	}
 	.deployment-section img {
 		width: 80%;
-	}
-	.contacts-list {
-		text-align: center;
-		margin: auto;
-		width: 50%;
 	}
 /* Elements */
 
@@ -149,7 +162,29 @@ table {
 	.bar-menu {
 		font-size: 30px;
 	}
-
+	.basic-form {
+		text-align: center;
+		padding: 1em;
+		width: 75%;
+		margin: auto;
+	}
+	.form-element {
+		margin: 0.5em 0 0.5em 0;
+	}
+	.form-element input {
+		font-size: 3em;
+		width: 100%;
+		border-radius: 1px;
+	}
+	.form-element input:focus {
+		border-bottom: 1px solid #66d9ef;
+	}
+	.form-element input {
+		border-bottom: 1px solid rgba(0,0,0,0);
+	}
+	.form-element input[type="text"] {
+	    background-color: #e6e6e6;
+	}
 /* ==== MENU MASK ==== */
 	.masked {
 		z-index: 100;
@@ -200,7 +235,7 @@ table {
 
 .close-icon {
 	text-align: center;
-	margin: 2em 0 2em 0;
+	margin: 1em 0 1em 0;
 }
 .close-icon span a i {
 	color: #464741;
@@ -214,7 +249,7 @@ table {
 	sublime green: #a3e22d;
 	sublime aqua: #66d9ef;
 	sublime white: #f8f8f2;
-	sublimee orange: #fd971f;
+	sublime orange: #fd971f;
 	sublime pink: #f92672;
 	sublime yellow: #e6da61;
 	sublime grey: #272822;
