@@ -82,6 +82,7 @@ table {
 	}
 	a {
 		text-decoration: none;
+		color: inherit;
 	}
 	nav {
 		margin: 1em;
@@ -98,7 +99,8 @@ table {
 	}
 	.contacts-list {
 		text-align: center;
-		padding: 2em;
+		font-size: 1.5em;
+		padding: 1em;
 		margin: auto;
 		width: 50%;
 	}
