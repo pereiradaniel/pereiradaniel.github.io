@@ -87,6 +87,15 @@ table {
 	nav {
 		margin: 1em;
 	}
+	h1 {
+		font-size: 3em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	h3 {
+		font-size: 1.5em;
+	}
 
 /* Re-usable */
 
@@ -95,6 +104,7 @@ table {
 	}
 	.name-header {
 		font-size: 2em;
+		font-weight: 600;
 		text-align: center;
 	}
 	.contacts-list {
@@ -130,7 +140,9 @@ table {
 	.alternate-section {
 		background-color: #e6e6e6;		
 	}
-
+	.centered {
+		text-align: center;
+	}
 
 /* Basic styles */
 
@@ -145,6 +157,14 @@ table {
 	}
 	.deployment-section img {
 		width: 80%;
+	}
+	.deployment-title {
+		border-bottom: 1px solid #464741;
+		width: 50%;
+		margin: auto;
+	}
+	.deployment-info {
+		margin: 0.5em 0 0.5em 0;
 	}
 /* Elements */
 
@@ -220,6 +240,7 @@ table {
 		margin-bottom: 0.5em;
 	}
 	#menu-list li a {
+		font-size: 2em;
 		color: #e6e6e6;
 	}
 	#menu-list li a:hover {
