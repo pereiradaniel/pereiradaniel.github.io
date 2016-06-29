@@ -166,6 +166,9 @@ table {
 	.deployment-info {
 		margin: 0.5em 0 0.5em 0;
 	}
+	.deployment-info a {
+		font-size: 2em;
+	}
 /* Elements */
 
 	.basicInfo {
