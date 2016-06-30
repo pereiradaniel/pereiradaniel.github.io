@@ -65,20 +65,25 @@ table {
 /* ==========END OF ADDED CSS RESET ========== */
 
 /* ==== FONTS ==== */
-
 	@font-face {
-	  font-family: "Ubuntu-mono";
-	  src: url(../fonts/UbuntuMono-R.ttf) format("truetype");
+	  font-family: "Oranienbaum";
+	  src: url(../fonts/Oranienbaum.ttf) format("truetype");
 	}
-	.ubuntu-mono {
-		font-family: 'Ubuntu-mono';
+	.oranienbaum {
+		font-family: 'Oranienbaum';
 	}
-
+	@font-face {
+		font-family: "SketchRockwell";
+		src: url(../fonts/SketchRockwell-Bold.ttf);
+	}
+	.sketchrockwell {
+		font-family: 'SketchRockwell';
+	}
 /* ==== GLOBALS ==== */
 	body {
-		font-family: 'Ubuntu-mono';
-		background-color: #f8f8f2;
-		color: #464741;
+		font-family: 'oranienbaum';
+		background-color: #464741;
+		color: #e6e6e6;
 	}
 	a {
 		text-decoration: none;
@@ -88,31 +93,36 @@ table {
 		margin: 1em;
 	}
 	h1 {
-		font-size: 3em;
+		font-size: 4em;
 	}
 	h2 {
-		font-size: 2em;
+		font-size: 3em;
 	}
 	h3 {
 		font-size: 1.5em;
 	}
 
 /* Re-usable */
-
+	.item-margin {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
 	.inline-block {
 		display: inline-block;
 	}
 	.name-header {
-		font-size: 2em;
-		font-weight: 600;
+		font-family: 'SketchRockwell';
 		text-align: center;
+		color: #66d9ef;
 	}
 	.contacts-list {
 		text-align: center;
-		font-size: 1.5em;
-		padding: 1em;
+		font-size: 2em;
 		margin: auto;
 		width: 50%;
+	}
+	.contacts-list i {
+		margin: 0.5em 0.5em 0.5em 0.5em;
 	}
 	.basic-button {
 		display: inline-block;
@@ -162,8 +172,6 @@ table {
 		margin: auto;
 	}
 	.deployment-title {
-		border-bottom: 1px solid #464741;
-		width: 50%;
 		margin: auto;
 	}
 	.deployment-info {
@@ -173,45 +181,20 @@ table {
 		font-size: 2em;
 	}
 /* Elements */
-
-	.basicInfo {
-		margin: auto;
-		width: 50%;
-	}
 	.info-wrapper {
+		text-align: center;
+		margin: auto;
+	}
+	.info-wrapper h1 {
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
+		color: #66d9ef;
 	}
-	img#profileimg {
-		height: 100px;
-		border-radius: 50%;
-		display: inline-block;
+	.info-wrapper h2 {
+		color: #f92672;
 	}
 	.bar-menu {
 		font-size: 30px;
-	}
-	.basic-form {
-		text-align: center;
-		padding: 1em;
-		width: 75%;
-		margin: auto;
-	}
-	.form-element {
-		margin: 0.5em 0 0.5em 0;
-	}
-	.form-element input {
-		font-size: 3em;
-		width: 100%;
-		border-radius: 1px;
-	}
-	.form-element input:focus {
-		border-bottom: 1px solid #66d9ef;
-	}
-	.form-element input {
-		border-bottom: 1px solid rgba(0,0,0,0);
-	}
-	.form-element input[type="text"] {
-	    background-color: #e6e6e6;
 	}
 /* ==== MENU MASK ==== */
 	.masked {
@@ -226,12 +209,9 @@ table {
 	nav {
 		position: fixed;
 	}
-
-
 	#menu-options {
 		position: absolute;
 	}
-
 	#menu-list {
 		z-index: 300;
 		position: fixed;
@@ -252,26 +232,16 @@ table {
 	#menu-list li a:hover {
 		border-bottom: 1px solid #e6e6e6;
 	}
-
 	.notvisible {
 		display: none;
 	}
-
-	.menu-close-colour {
+	.close-icon {
+		text-align: center;
+		margin: 1em 0 1em 0;
+	}
+	.close-icon span a i {
 		color: #e6e6e6;
 	}
-
-
-.close-icon {
-	text-align: center;
-	margin: 1em 0 1em 0;
-}
-.close-icon span a i {
-	color: #464741;
-}
-
-
-
 
 
 /* Colours
