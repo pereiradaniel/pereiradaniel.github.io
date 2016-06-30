@@ -149,14 +149,17 @@ table {
 	.deployments-wrapper {
 		margin: auto;
 		width: 90%;
+		text-align: center;
 	}
 	.deployment-section {
 		padding: 1em;
 		text-align: center;
 		display: inline-block;
+		margin: auto;
 	}
 	.deployment-section img {
 		width: 80%;
+		margin: auto;
 	}
 	.deployment-title {
 		border-bottom: 1px solid #464741;
