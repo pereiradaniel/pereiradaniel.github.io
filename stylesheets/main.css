@@ -79,9 +79,16 @@ table {
 	.sketchrockwell {
 		font-family: 'SketchRockwell';
 	}
+	@font-face {
+		font-family: "Adam";
+		src: url(../fonts/LiniLibertnie_Rah.ttf);
+	}
+	.libertine {
+		font-family: 'Libertine';
+	}
 /* ==== GLOBALS ==== */
 	body {
-		font-family: 'oranienbaum';
+		font-family: 'Libertine';
 		background-color: #e6e6e6;
 		color: #464741;
 	}
@@ -93,13 +100,13 @@ table {
 		margin: 1em;
 	}
 	h1 {
-		font-size: 4em;
-	}
-	h2 {
 		font-size: 3em;
 	}
+	h2 {
+		font-size: 2em;
+	}
 	h3 {
-		font-size: 1.5em;
+		font-size: 1em;
 	}
 
 /* Re-usable */
@@ -111,14 +118,14 @@ table {
 		display: inline-block;
 	}
 	.name-header {
-		font-family: 'oranienbaum';
 		text-align: center;
+		font-weight: 800;
 	}
 	.contacts-list {
 		text-align: center;
 		font-size: 2em;
 		margin: auto;
-		width: 50%;
+		width: 100%;
 	}
 	.contacts-list i {
 		margin: 0.5em 0.5em 0.5em 0.5em;
@@ -146,11 +153,17 @@ table {
 		padding-top: 2em;
 		padding-bottom: 2em;
 	}
+	.title-margin {
+		margin-bottom: 0.5em;
+	}
 	.alternate-section {
 		background-color: #e6e6e6;		
 	}
 	.centered {
 		text-align: center;
+	}
+	.name-title {
+		font-weight: 800;
 	}
 
 /* Basic styles */
