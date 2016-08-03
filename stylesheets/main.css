@@ -82,8 +82,8 @@ table {
 /* ==== GLOBALS ==== */
 	body {
 		font-family: 'oranienbaum';
-		background-color: #464741;
-		color: #e6e6e6;
+		background-color: #e6e6e6;
+		color: #464741;
 	}
 	a {
 		text-decoration: none;
@@ -111,9 +111,8 @@ table {
 		display: inline-block;
 	}
 	.name-header {
-		font-family: 'SketchRockwell';
+		font-family: 'oranienbaum';
 		text-align: center;
-		color: #66d9ef;
 	}
 	.contacts-list {
 		text-align: center;
@@ -188,10 +187,6 @@ table {
 	.info-wrapper h1 {
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
-		color: #66d9ef;
-	}
-	.info-wrapper h2 {
-		color: #f92672;
 	}
 	.bar-menu {
 		font-size: 30px;
@@ -238,9 +233,6 @@ table {
 	.close-icon {
 		text-align: center;
 		margin: 1em 0 1em 0;
-	}
-	.close-icon span a i {
-		color: #e6e6e6;
 	}
 
 
