@@ -121,6 +121,9 @@ table {
 
 
 /* UNIVERSAL */
+	.margin-auto {
+		margin: auto;
+	}
 	.inline-block {
 		display: inline-block;;
 	}
@@ -140,9 +143,19 @@ table {
 
 
 /* BUTTONS */
+	@media only screen and (max-width: 768px) {
+		.button {
+			display: block;
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		.button {
+			display: inline-block;
+		}
+	}
+
 	.button-row {
 		margin: 2em;
-		width: 100%;
 	}
 
 	.button {
