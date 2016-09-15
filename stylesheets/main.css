@@ -167,8 +167,8 @@ table {
 		margin: 0.5em;
 	}
 	a:hover.button {
-		color: white;
-		background-color: grey;
+		color: black;
+		background-color: white;
 	}
 
 
@@ -233,7 +233,7 @@ table {
 		}
 		a:hover.bar-header-link  {
 			color: white;
-			background-color: rgba(0, 0, 0, 0.5);
+			background-color: black;
 			text-decoration: underline;
 		}
 
@@ -305,11 +305,11 @@ table {
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
 	}
+
+/* ==== MENU MASK ==== */
 	.bar-menu {
 		font-size: 30px;
 	}
-
-/* ==== MENU MASK ==== */
 	.masked {
 		z-index: 100;
 		left: 0px;
@@ -317,7 +317,7 @@ table {
 		height: 100%;
 		width: 100%;
 		position: fixed;
-		background-color: rgba(102, 101, 99, 0.9);
+		background-color: rgba(0, 0, 0, 0.9);
 	}
 
 	@media only screen and (max-width: 768px) {
@@ -338,23 +338,22 @@ table {
 	}
 	#menu-list {
 		z-index: 300;
+		width: 100%;
 		position: fixed;
 		top: 50%;
-		left: 50%;
-		height: 30%;
-		width: 50%;
-		margin: -15% 0 0 -25%;
+		left: 0%;
+	  transform: translate(0%, -50%);
+	}
+	#menu-list a {
+		display: block;
+		padding: 1em;
+		font-size: 2em;
+		color: rgba(255, 255, 255, 0.8);
 		text-align: center;
 	}
-	#menu-list li {
-		margin-bottom: 0.5em;
-	}
-	#menu-list li a {
-		font-size: 2em;
-		color: #e6e6e6;
-	}
-	#menu-list li a:hover {
-		border-bottom: 1px solid #e6e6e6;
+	#menu-list a:hover {
+		text-decoration: underline;
+		background-color: rgba(0, 0, 0, 0.8);
 	}
 	.notvisible {
 		display: none;
@@ -383,4 +382,7 @@ table {
 
 	.white {
 		color: #fff;
+	}
+	.white-80 {
+		color: rgba(255, 255, 255, 0.8);
 	}
