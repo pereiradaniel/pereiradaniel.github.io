@@ -106,9 +106,6 @@ table {
 		text-decoration: none;
 		color: inherit;
 	}
-	nav {
-		margin: 1em;
-	}
 	h1 {
 		font-size: 3em;
 	}
@@ -309,6 +306,7 @@ table {
 /* ==== MENU MASK ==== */
 	.bar-menu {
 		font-size: 30px;
+		padding: 0.5em;
 	}
 	.masked {
 		z-index: 100;
