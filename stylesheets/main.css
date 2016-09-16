@@ -159,7 +159,7 @@ table {
 		font-family: 'Monofur';
 		color: white;
 		background-color: black;
-		font-size: 1.5em;
+		font-size: 1em;
 		padding: 0.5em;
 		margin: 0.5em;
 	}
@@ -222,7 +222,7 @@ table {
 
 	/* BAR HEADER LINK */
 		.bar-header-link {
-			font-size: 1em;
+			font-size: 1.5em;
 			display: inline-block;
 			padding: 0.25em;
 			float: right;
