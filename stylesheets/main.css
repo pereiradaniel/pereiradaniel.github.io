@@ -64,9 +64,6 @@ table {
 	}
 /* ==========END OF ADDED CSS RESET ========== */
 
-header {
-	min-height: 4em;
-}
 
 /* ==== FONTS ==== */
 	@font-face {
@@ -210,7 +207,7 @@ header {
 		.bar-header-wrapper {
 			width: 100%;
 			display: inline-block;
-			padding: 1em;
+			padding: 0.25em;
 		}
 
 	/* BAR HEADER TITLE */
@@ -229,7 +226,7 @@ header {
 			display: inline-block;
 			padding: 0.25em;
 			float: right;
-			margin-right: 2em;
+			margin-left: 2em;
 		}
 		a:hover.bar-header-link  {
 			color: white;
@@ -244,7 +241,7 @@ header {
 		max-width: 1200px;
 	}
 	.section {
-		padding: 1em;
+		padding: 0.25em;
 		margin: auto;
 		margin-bottom: 20px;
 	}
@@ -309,7 +306,7 @@ header {
 /* ==== MENU MASK ==== */
 	.bar-menu {
 		font-size: 30px;
-		padding: 0.5em;
+		padding: 0.2em;
 	}
 	.masked {
 		z-index: 100;
@@ -319,6 +316,10 @@ header {
 		width: 100%;
 		position: fixed;
 		background-color: rgba(0, 0, 0, 0.9);
+	}
+	/* So content behind mask will stay in place */
+	header {
+		min-height: 2.5em;
 	}
 
 	@media only screen and (max-width: 768px) {
