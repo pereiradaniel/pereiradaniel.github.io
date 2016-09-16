@@ -64,6 +64,9 @@ table {
 	}
 /* ==========END OF ADDED CSS RESET ========== */
 
+header {
+	min-height: 4em;
+}
 
 /* ==== FONTS ==== */
 	@font-face {
@@ -343,9 +346,10 @@ table {
 	  transform: translate(0%, -50%);
 	}
 	#menu-list a {
+		font-family: 'Monofur';
 		display: block;
 		padding: 1em;
-		font-size: 2em;
+		font-size: 1.5em;
 		color: rgba(255, 255, 255, 0.8);
 		text-align: center;
 	}
