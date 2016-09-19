@@ -302,6 +302,12 @@ table {
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
 	}
+	.header {
+		margin-bottom: 0.2em;
+	}
+	.header-2 {
+		margin: 0.1em 0 0.2em 0;
+	}
 
 /* ==== MENU MASK ==== */
 	.bar-menu {

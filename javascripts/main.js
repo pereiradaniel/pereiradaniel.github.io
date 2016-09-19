@@ -6,6 +6,7 @@ $(document).ready(function() {
 			$("#menu").toggleClass("fa-bars");
 			$("#menu").toggleClass("fa-close");
       $("#menu").toggleClass("white-80");
+      $("nav").toggleClass("black-bgnd");
 		})
 		$("#icon1").click(function() {
 			$("#icon1").toggleClass("fa-spin");
