@@ -164,8 +164,7 @@ table {
 		margin: 0.5em;
 	}
 	a:hover.button {
-		color: black;
-		background-color: white;
+		background-color: #00d500;
 	}
 
 
@@ -230,7 +229,7 @@ table {
 		}
 		a:hover.bar-header-link  {
 			color: white;
-			background-color: black;
+			background-color: #00d500;
 			text-decoration: underline;
 		}
 
