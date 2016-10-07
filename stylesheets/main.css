@@ -121,6 +121,9 @@ table {
 	.margin-auto {
 		margin: auto;
 	}
+	.top-margin {
+		margin-top: 1em;
+	}
 	.inline-block {
 		display: inline-block;;
 	}
@@ -373,6 +376,9 @@ table {
 	}
 
 /* Colours */
+	.custom-green {
+		color: #00d500;
+	}
 	.green {
 		color: #1fd26a;
 	}
