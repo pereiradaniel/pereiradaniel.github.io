@@ -302,6 +302,8 @@ table {
 		margin-bottom: 0.5em;
 	}
 	.header {
+		color: white;
+		background-color: #00d500;
 		margin-bottom: 0.2em;
 	}
 	.header-2 {
