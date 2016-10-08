@@ -365,6 +365,7 @@ table {
 	}
 	#menu-list a:hover {
 		text-decoration: underline;
+		color: #00d500;
 		background-color: rgba(0, 0, 0, 0.8);
 	}
 	.notvisible {
