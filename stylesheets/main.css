@@ -1,11 +1,4 @@
-/* CUSTOM CSS RESET BASED ON CSS RESET BY
-
-	 http://meyerweb.com/eric/tools/css/reset/
-   v2.0 | 20110126
-   License: none (public domain)
-
-*/
-
+/* ==========CSS RESET BEGINS========== */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -50,19 +43,17 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+input {
+	border: none;
+}
+textarea:focus, input:focus {
+	outline: none;
+}
+button {
+	border: none;
+	outline: none;
+}
 /* ==========END OF CSS RESET========== */
-	input {
-		border: none;
-	}
-	textarea:focus, input:focus {
-		outline: none;
-	}
-	button {
-		border: none;
-		outline: none;
-	}
-/* ==========END OF ADDED CSS RESET ========== */
 
 
 /* ==== FONTS ==== */
@@ -72,13 +63,6 @@ table {
 	}
 	.libertine {
 		font-family: 'libertine';
-	}
-	@font-face {
-		font-family: "Atari";
-		src: url(../fonts/AtariSmall.ttf);
-	}
-	.atari {
-		font-family: 'Atari';
 	}
 	@font-face {
 		font-family: "Inconsolata";
@@ -94,9 +78,16 @@ table {
 	.monofur {
 		font-family: 'Monofur';
 	}
+	@font-face {
+		font-family: "Atari";
+		src: url(../fonts/AtariSmall.ttf);
+	}
+	.atari {
+		font-family: 'Atari';
+	}
 
 
-/* ==== GLOBALS ==== */
+/* ==== GLOBAL ELEMENT SETTINGS ==== */
 	body {
 		font-family: 'Libertine';
 		background-color: white;
