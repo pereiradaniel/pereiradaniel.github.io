@@ -152,13 +152,13 @@ button {
 	.button {
 		font-family: 'Monofur';
 		color: white;
-		background-color: black;
+		background-color: #64BF30;
 		font-size: 1em;
 		padding: 0.5em;
 		margin: 0.5em;
 	}
 	a:hover.button {
-		background-color: #00d500;
+		background-color: #7fd34f;
 	}
 
 
@@ -223,7 +223,7 @@ button {
 		}
 		a:hover.bar-header-link  {
 			color: white;
-			background-color: #00d500;
+			background-color: #7fd34f;
 			text-decoration: underline;
 		}
 
@@ -296,7 +296,7 @@ button {
 		margin-bottom: 0.5em;
 	}
 	.header {
-		color: #00d500;
+		color: #4da8f4;
 		margin-bottom: 0.2em;
 	}
 	.header-2 {
@@ -356,7 +356,7 @@ button {
 	}
 	#menu-list a:hover {
 		text-decoration: underline;
-		color: #00d500;
+		color: #64BF30;
 		background-color: rgba(0, 0, 0, 0.8);
 	}
 	.notvisible {
@@ -369,7 +369,10 @@ button {
 
 /* Colours */
 	.custom-green {
-		color: #00d500;
+		color: #64BF30;
+	}
+	.custom-blue {
+		color: #4da8f4;
 	}
 	.green {
 		color: #1fd26a;
