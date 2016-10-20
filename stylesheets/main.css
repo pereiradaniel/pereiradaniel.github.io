@@ -151,14 +151,14 @@ button {
 
 	.button {
 		font-family: 'Monofur';
-		color: white;
-		background-color: #64BF30;
+		color: #839700;
+		background-color: #D8F800;
 		font-size: 1em;
 		padding: 0.5em;
 		margin: 0.5em;
 	}
 	a:hover.button {
-		background-color: #7fd34f;
+		background-color: #A7C000;
 	}
 
 
@@ -215,15 +215,17 @@ button {
 
 	/* BAR HEADER LINK */
 		.bar-header-link {
+			color: #8A002A;
+			background-color: #E40045;
 			font-size: 1.5em;
 			display: inline-block;
 			padding: 0.25em;
 			float: right;
+			padding: 0.5em;
 			margin-left: 2em;
 		}
 		a:hover.bar-header-link  {
-			color: white;
-			background-color: #7fd34f;
+			background-color: #B00035;
 			text-decoration: underline;
 		}
 
@@ -296,7 +298,7 @@ button {
 		margin-bottom: 0.5em;
 	}
 	.header {
-		color: #4da8f4;
+		color: #1144AA;
 		margin-bottom: 0.2em;
 	}
 	.header-2 {
@@ -315,7 +317,7 @@ button {
 		height: 100%;
 		width: 100%;
 		position: fixed;
-		background-color: rgba(0, 0, 0, 0.9);
+		background-color: rgba(8, 40,103,0.9)
 	}
 	/* So content behind mask will stay in place */
 	header {
@@ -356,8 +358,8 @@ button {
 	}
 	#menu-list a:hover {
 		text-decoration: underline;
-		color: #64BF30;
-		background-color: rgba(0, 0, 0, 0.8);
+		color: #8A002A;
+		background-color: rgba(230, 51,105,0.9);
 	}
 	.notvisible {
 		display: none;
@@ -371,8 +373,8 @@ button {
 	.custom-green {
 		color: #64BF30;
 	}
-	.custom-blue {
-		color: #4da8f4;
+	.custom-purple {
+		color: #E40045;
 	}
 	.green {
 		color: #1fd26a;
@@ -393,6 +395,6 @@ button {
 	.white {
 		color: #fff;
 	}
-	.white-80 {
-		color: rgba(255, 255, 255, 0.8);
+	.bars-purple {
+		color: #E40045;
 	}
