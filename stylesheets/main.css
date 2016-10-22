@@ -182,7 +182,9 @@ button {
 
 
 /* HEADER */
-
+	header {
+		background-color: #5679BF;
+	}
 	@media only screen and (max-width: 768px) {
 		.header-container {
 			display: none;
@@ -205,9 +207,8 @@ button {
 
 	/* BAR HEADER TITLE */
 		.bar-header-title {
-			font-size: 1.5em;
 			display: inline-block;
-			color: black;
+			color: white;
 		}
 		.bar-header-title a:hover {
 			text-decoration: underline;
