@@ -15,6 +15,7 @@ $(document).ready(function() {
 			$("#menu").toggleClass("fa-close");
 			// Toggles colours
 			//		Colours for menu bars and menu close icon are different due to darker menu colour scheme
+			$("#menu").toggleClass("white-90");
       $("nav").toggleClass("black-bgnd");
 		})
 });

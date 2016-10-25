@@ -150,15 +150,18 @@ button {
 	}
 
 	.button {
+		border: 1px solid black;
 		font-family: 'Monofur';
-		color: #839700;
-		background-color: #D8F800;
+		color: black;
+		background-color: white;
 		font-size: 1em;
 		padding: 0.5em;
 		margin: 0.5em;
 	}
 	a:hover.button {
-		background-color: #A7C000;
+		background-color: lime;
+		color: white;
+		border: 1px solid lime;
 	}
 
 
@@ -183,7 +186,8 @@ button {
 
 /* HEADER */
 	header {
-		background-color: #5679BF;
+		background-color: white;
+		box-shadow: 2px 2px 5px grey;
 	}
 	@media only screen and (max-width: 768px) {
 		.header-container {
@@ -208,7 +212,8 @@ button {
 	/* BAR HEADER TITLE */
 		.bar-header-title {
 			display: inline-block;
-			color: white;
+			color: black;
+			font-weight: 600;
 		}
 		.bar-header-title a:hover {
 			text-decoration: underline;
@@ -216,8 +221,9 @@ button {
 
 	/* BAR HEADER LINK */
 		.bar-header-link {
-			color: #8A002A;
-			background-color: #E40045;
+			color: black;
+			background-color: white;
+			border: 3px solid black;
 			font-size: 1.5em;
 			display: inline-block;
 			padding: 0.25em;
@@ -226,8 +232,8 @@ button {
 			margin-left: 2em;
 		}
 		a:hover.bar-header-link  {
-			background-color: #B00035;
-			text-decoration: underline;
+			background-color: black;
+			color: white;
 		}
 
 
@@ -240,6 +246,7 @@ button {
 		padding: 0.25em;
 		margin: auto;
 		margin-bottom: 20px;
+		border-bottom: 1px solid grey;
 	}
 
 
@@ -299,11 +306,13 @@ button {
 		margin-bottom: 0.5em;
 	}
 	.header {
-		color: #1144AA;
+		color: lime;
 		margin-bottom: 0.2em;
+		font-weight: 800;
 	}
 	.header-2 {
 		margin: 0.1em 0 0.2em 0;
+		font-weight: 600;
 	}
 
 /* ==== MENU MASK ==== */
@@ -318,7 +327,7 @@ button {
 		height: 100%;
 		width: 100%;
 		position: fixed;
-		background-color: rgba(8, 40,103,0.9)
+		background-color: rgba(0, 0,0,0.9)
 	}
 	/* So content behind mask will stay in place */
 	header {
@@ -359,8 +368,7 @@ button {
 	}
 	#menu-list a:hover {
 		text-decoration: underline;
-		color: #8A002A;
-		background-color: rgba(230, 51,105,0.9);
+		background-color: rgba(255, 255, 255,0.9);
 	}
 	.notvisible {
 		display: none;
@@ -396,6 +404,6 @@ button {
 	.white {
 		color: #fff;
 	}
-	.bars-purple {
-		color: #E40045;
+	.white-90 {
+		color: rgba(255, 255, 255,0.9);
 	}
