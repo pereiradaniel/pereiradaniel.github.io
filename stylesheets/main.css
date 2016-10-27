@@ -188,6 +188,7 @@ button {
 	header {
 		background-color: white;
 		box-shadow: 2px 2px 5px grey;
+		padding: 0.5em;
 	}
 	@media only screen and (max-width: 768px) {
 		.header-container {
@@ -214,6 +215,7 @@ button {
 			display: inline-block;
 			color: black;
 			font-weight: 600;
+			padding: 0.25em;
 		}
 		.bar-header-title a:hover {
 			text-decoration: underline;
@@ -234,6 +236,7 @@ button {
 		a:hover.bar-header-link  {
 			background-color: black;
 			color: white;
+			transition: 
 		}
 
 
