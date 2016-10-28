@@ -157,11 +157,13 @@ button {
 		font-size: 1em;
 		padding: 0.5em;
 		margin: 0.5em;
+		transition: background-color .25s linear,
+								color .25s linear;
 	}
 	a:hover.button {
-		background-color: lime;
+		background-color: black;
 		color: white;
-		border: 1px solid lime;
+		border: 1px solid black;
 	}
 
 
@@ -225,18 +227,16 @@ button {
 		.bar-header-link {
 			color: black;
 			background-color: white;
-			border: 3px solid black;
 			font-size: 1.5em;
 			display: inline-block;
 			padding: 0.25em;
 			float: right;
 			padding: 0.5em;
 			margin-left: 2em;
+			transition: text-shadow .1s linear;
 		}
 		a:hover.bar-header-link  {
-			background-color: black;
-			color: white;
-			transition: 
+			text-shadow: 3px 3px 3px grey;
 		}
 
 
@@ -309,7 +309,6 @@ button {
 		margin-bottom: 0.5em;
 	}
 	.header {
-		color: lime;
 		margin-bottom: 0.2em;
 		font-weight: 800;
 	}
@@ -368,10 +367,11 @@ button {
 		font-size: 1.5em;
 		color: rgba(255, 255, 255, 0.8);
 		text-align: center;
+		transition: background-color .25s linear;
 	}
 	#menu-list a:hover {
 		text-decoration: underline;
-		background-color: rgba(255, 255, 255,0.9);
+		background-color: rgba(0, 0, 0,0.9);
 	}
 	.notvisible {
 		display: none;
