@@ -72,13 +72,6 @@ button {
 		font-family: 'Inconsolata';
 	}
 	@font-face {
-		font-family: "Monofur";
-		src: url(../fonts/monof55.ttf);
-	}
-	.monofur {
-		font-family: 'Monofur';
-	}
-	@font-face {
 		font-family: "Atari";
 		src: url(../fonts/AtariSmall.ttf);
 	}
@@ -144,11 +137,9 @@ button {
 			display: inline-block;
 		}
 	}
-
 	.button-row {
 		margin: 2em;
 	}
-
 	.button {
 		border: 1px solid black;
 		font-family: 'Monofur';
