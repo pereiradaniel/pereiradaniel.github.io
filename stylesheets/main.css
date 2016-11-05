@@ -294,8 +294,6 @@ button {
 		width: 100%;
 	}
 
-
-/* =========================*/
 /* Elements */
 	.info-wrapper {
 		text-align: center;
@@ -328,20 +326,17 @@ button {
 		position: fixed;
 		background-color: rgba(0, 0,0,0.9)
 	}
-
 	@media only screen and (max-width: 768px) {
 		nav {
 			display: block;
 			width: 100%;
 		}
 	}
-
 	@media only screen and (min-width: 768px) {
 		nav {
 			display: none;
 		}
 	}
-
 	#menu-options {
 		position: absolute;
 	}
@@ -375,28 +370,6 @@ button {
 	}
 
 /* Colours */
-	.custom-green {
-		color: #64BF30;
-	}
-	.custom-purple {
-		color: #E40045;
-	}
-	.green {
-		color: #1fd26a;
-	}
-	.pink {
-		color: #ec3f8c;
-	}
-	.lt-grey {
-		color: #323138;
-	}
-	.dk-grey {
-		color: #25242c;
-	}
-	.blue {
-		color: #39b1c6;
-	}
-
 	.white {
 		color: #fff;
 	}
