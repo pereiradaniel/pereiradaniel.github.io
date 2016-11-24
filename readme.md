@@ -11,7 +11,8 @@ View this [Gitpage][gitpagelink]
 
 
 [gitpagelink]: <https://pereiradaniel.github.io>
-[youtubelink]: <https://www.youtube.com/channel/UC01Fupc2wttqNAScAevhQrQ>
-[bloglink]: <https://medium.com/@squashallbugs>
-[twitterlink]: <https://twitter.com/squashallbugs>
-[linkedinlink]: <https://ca.linkedin.com/in/squashallbugs>
+[youtubelink]: <https://www.youtube.com/c/danielpaulgrechpereira>
+[bloglink]: <https://medium.com/@pereirawebdev>
+[twitterlink]: <https://twitter.com/pereirawebdev>
+[linkedinlink]: <https://ca.linkedin.com/in/danielpaulpereira
+>
