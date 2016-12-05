@@ -372,6 +372,14 @@ button {
 		margin: 1em 0 1em 0;
 	}
 
+/* SPECIAL ELEMENTS */
+	.profile-img {
+		max-height: 100px;
+		display: block;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
 
 /* Colours */
 	.white {
