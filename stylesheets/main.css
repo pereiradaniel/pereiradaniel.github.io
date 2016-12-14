@@ -134,7 +134,7 @@ button {
 	}
 	@font-face {
 		font-family: "Atari";
-		src: url(../fonts/AtariSmall.ttf);
+		src: url(../fonts/PressStart2P.ttf);
 	}
 	.atari {
 		font-family: 'Atari';
@@ -374,6 +374,7 @@ button {
 
 /* SPECIAL ELEMENTS */
 	.profile-img {
+		padding: 1em;
 		max-height: 100px;
 		display: block;
 		border-radius: 50%;
