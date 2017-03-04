@@ -75,6 +75,28 @@ button {
 	h3 {
 		font-size: 1.25em;
 	}
+	.margin-auto {
+		margin: auto;
+	}
+	.top-margin {
+		margin-top: 1em;
+	}
+	.inline-block {
+		display: inline-block;;
+	}
+	.centered {
+		text-align: center;
+	}
+	.inline {
+		display: inline;
+	}
+	.vert-centered {
+	  position: fixed;
+	  top: 50%;
+	  left: 50%;
+	  /* bring your own prefixes */
+	  transform: translate(-50%, -50%);
+	}
 
 
 /* GRID */
@@ -142,31 +164,6 @@ button {
 	/* ==== FONT STYLES ==== */
 	.weight600 {
 		font-weight: 600;
-	}
-
-
-/* UNIVERSAL */
-	.margin-auto {
-		margin: auto;
-	}
-	.top-margin {
-		margin-top: 1em;
-	}
-	.inline-block {
-		display: inline-block;;
-	}
-	.centered {
-		text-align: center;
-	}
-	.inline {
-		display: inline;
-	}
-	.vert-centered {
-	  position: fixed;
-	  top: 50%;
-	  left: 50%;
-	  /* bring your own prefixes */
-	  transform: translate(-50%, -50%);
 	}
 
 
