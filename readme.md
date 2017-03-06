@@ -1,4 +1,4 @@
-# Daniel Paul Grech Pereira
+# Daniel Paul Grech Pereira :innocent:
 
 View this [Gitpage][gitpagelink]
 
@@ -13,7 +13,7 @@ View this [Gitpage][gitpagelink]
 	Many of my git repos are tutorials, with blog and video links in the read me file.  Here is a short guide to some of my git repos.
 
 
-# Tutorials
+# Tutorials :computer:
 
 	- [Learnyounode Tutorial Solutions][guideLinkLearnyounode]
 
