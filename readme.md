@@ -1,6 +1,6 @@
 # Latest Project
 
-	[View the Blog][latestProject] for my Spring 2017 Project App!
+View the blog for my [Spring 2017 Project App][latestproject].
 
 # Daniel Paul Grech Pereira :innocent:
 
@@ -19,16 +19,16 @@ View this [Gitpage][gitpagelink]
 
 # Tutorials :computer:
 
-	- [Learnyounode Tutorial Solutions][guideLinkLearnyounode]
+- [Learnyounode Tutorial Solutions][learnyounode]
 
 
 > I am a Ruby and Javascript developer in Toronto, Canada.
 
 
+[latestProject]: <https://medium.com/spring-2017-project-app-burrito-builder>
 [gitpagelink]: <https://pereiradaniel.github.io>
 [youtubelink]: <https://www.youtube.com/c/danielpaulgrechpereira>
 [bloglink]: <https://medium.com/@pereirawebdev>
 [twitterlink]: <https://twitter.com/pereirawebdev>
+[learnyounode]: <https://github.com/pereiradaniel/learnyounode>
 [linkedinlink]: <https://ca.linkedin.com/in/danielpaulpereira>
-[guideLinkLearnyounode]: <https://github.com/pereiradaniel/learnyounode>
-[latestProject]: <https://medium.com/spring-2017-project-app-burrito-builder>
