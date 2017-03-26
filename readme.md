@@ -1,6 +1,6 @@
 # Latest Project
 
-	View the [blog][latestProject] for my Spring 2017 Project App!
+	[View the Blog][latestProject] for my Spring 2017 Project App!
 
 # Daniel Paul Grech Pereira :innocent:
 
