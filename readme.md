@@ -1,3 +1,7 @@
+# Latest Project
+
+	View the [blog][latestProject] for my Spring 2017 Project App!
+
 # Daniel Paul Grech Pereira :innocent:
 
 View this [Gitpage][gitpagelink]
@@ -27,3 +31,4 @@ View this [Gitpage][gitpagelink]
 [twitterlink]: <https://twitter.com/pereirawebdev>
 [linkedinlink]: <https://ca.linkedin.com/in/danielpaulpereira>
 [guideLinkLearnyounode]: <https://github.com/pereiradaniel/learnyounode>
+[latestProject]: <https://medium.com/spring-2017-project-app-burrito-builder>
