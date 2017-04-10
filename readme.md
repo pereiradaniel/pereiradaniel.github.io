@@ -17,11 +17,6 @@ View this [Gitpage][gitpagelink]
 	Many of my git repos are tutorials, with blog and video links in the read me file.  Here is a short guide to some of my git repos.
 
 
-# Tutorials :computer:
-
-- [Learnyounode Tutorial Solutions][learnyounode]
-
-
 > I am a Ruby and Javascript developer in Toronto, Canada.
 
 
