@@ -12,11 +12,6 @@ View this [Gitpage][gitpagelink]
 - View my profile on [LinkedIn][linkedinlink].
 
 
-# GIT REPO GUIDE
-
-	Many of my git repos are tutorials, with blog and video links in the read me file.  Here is a short guide to some of my git repos.
-
-
 > I am a Ruby and Javascript developer in Toronto, Canada.
 
 
