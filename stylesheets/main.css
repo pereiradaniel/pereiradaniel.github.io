@@ -225,7 +225,6 @@ button {
 		padding: 0.5em;
 		/* So content behind mask will stay in place */
 		min-height: 2.5em;
-		position: fixed;
 	}
 	@media only screen and (max-width: 768px) {
 		.header-container {
