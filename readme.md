@@ -1,12 +1,6 @@
 # Daniel Paul Grech Pereira :innocent:
 ---
 
-## 13 January 2018
-- June Zhou visited me in the hospital.
-
-## 13/October/2017
-Updates coming.
-
 View this [Gitpage][gitpagelink]
 
 - Watch web development tutorials and other related videos on my [YouTube channel][youtubelink].
