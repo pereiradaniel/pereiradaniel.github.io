@@ -8,9 +8,6 @@ View this [Gitpage][gitpagelink]
 - Follow me on [twitter][twitterlink]
 - View my profile on [LinkedIn][linkedinlink].
 
-
-> I am a Ruby and Javascript developer in Toronto, Canada.
-
 [gitpagelink]: <https://pereiradaniel.github.io>
 [youtubelink]: <https://www.youtube.com/c/danielpaulgrechpereira>
 [bloglink]: <https://medium.com/@pereirawebdev>
