@@ -1,6 +1,8 @@
 # Daniel Paul Grech Pereira :innocent:
 ---
 
+This is the gitpage repo for Daniel Pereira.
+
 View this [Gitpage][gitpagelink]
 
 - Watch web development tutorials and other related videos on my [YouTube channel][youtubelink].
