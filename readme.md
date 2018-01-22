@@ -1,7 +1,7 @@
 # Daniel Paul Grech Pereira :innocent:
 ---
 
-This is the gitpage repo for Daniel Pereira.
+This is the gitpage repo for Daniel Pereira.  It displays projects that are on my github page.
 
 View this [Gitpage][gitpagelink]
 
