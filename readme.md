@@ -13,6 +13,8 @@ This is the gitpage repo for [Daniel Pereira][gitpagelink].
 
 ---
 
+_*Daniel Paul Grech Pereira*_
+
 [gitpagelink]: <https://pereiradaniel.github.io>
 [youtubelink]: <https://www.youtube.com/c/danielpaulgrechpereira>
 [bloglink]: <https://medium.com/@pereirawebdev>
