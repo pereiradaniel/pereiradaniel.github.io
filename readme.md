@@ -1,7 +1,7 @@
 # Daniel Paul Grech Pereira :innocent:
 ---
 
-This is the gitpage repo for [Daniel Pereira][gitpagelink].
+This is the gitpage repo for [Daniel Pereira][gitpagelink].  Visit my LinkedIn page to hire me for projects.
 
 
 # Social media links
