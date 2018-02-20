@@ -1,10 +1,12 @@
 # Daniel Paul Grech Pereira :innocent:
 ---
 
+## Introduction
+
 This is the gitpage repo for [Daniel Pereira][gitpagelink].  Visit my LinkedIn page to hire me for projects.
 
 
-# Social media links
+## Social media links
 
 - Watch web development tutorials and other related videos on my [YouTube channel][youtubelink].
 - Read my [web development blog][bloglink].
