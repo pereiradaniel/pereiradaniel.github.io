@@ -3,7 +3,8 @@
 
 ## Introduction
 
-This is the gitpage repo for [Daniel Pereira][gitpagelink].  Visit my LinkedIn page to hire me for projects.
+This is the gitpage repo for [Daniel Pereira][gitpagelink].
+Visit my [LinkedIn][linkedinlink] page to hire me for projects.
 
 
 ## Social media links
