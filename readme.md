@@ -6,6 +6,7 @@
 
 This is the gitpage repo for [Daniel Pereira][gitpagelink].
 Visit my [LinkedIn][linkedinlink] page to hire me for projects.
+This page will be rebuilt soon.
 
 
 ## Social media links
