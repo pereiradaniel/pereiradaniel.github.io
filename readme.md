@@ -1,8 +1,9 @@
 # Daniel Paul Grech Pereira :innocent:
 ---
 
-
 ## Introduction
+
+Daniel is a computer programmer in Toronto, Ontario.
 
 This is the gitpage repo for [Daniel Pereira][gitpagelink].
 Visit my [LinkedIn][linkedinlink] page to hire me for projects.
