@@ -1,4 +1,4 @@
-# Daniel Paul Grech Pereira :innocent:
+# Daniel Paul Grech Pereira
 ---
 
 ## Introduction
