@@ -22,6 +22,6 @@ _*Daniel Paul Grech Pereira 2018*_
 
 [gitpagelink]: <https://pereiradaniel.github.io>
 [youtubelink]: <https://www.youtube.com/c/danielpaulgrechpereira>
-[bloglink]: <https://medium.com/@pereirawebdev>
+[bloglink]: <https://pereirawebdev.blogspot.ca>
 [twitterlink]: <https://twitter.com/pereirawebdev>
 [linkedinlink]: <https://ca.linkedin.com/in/danielpaulpereira>
