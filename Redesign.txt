@@ -1,0 +1,11 @@
+PAGE REDESIGN TASK LIST
+
+  General
+    - Make sure everything works
+
+  HTML
+    - Projects page layout
+
+  CSS
+    - Colour scheme
+    - Fonts
