@@ -9,3 +9,8 @@ PAGE REDESIGN TASK LIST
   CSS
     - Colour scheme
     - Fonts
+
+  ENDSTATE
+    - Single page bio and summary that links to projects.
+    - Page links to linkedin profile
+    - Page uses javascript front end
