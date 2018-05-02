@@ -1,10 +1,12 @@
 PAGE REDESIGN TASK LIST
 
+
   General
     - Make sure everything works
 
   HTML
-    - Projects page layout
+    - Projects page layout design
+    - Projects page layout build
 
   CSS
     - Colour scheme
