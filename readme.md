@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Daniel is a computer programmer in Toronto, Ontario.
+Daniel is a computer programmer and strength coach in Toronto, Ontario.
 
 ## This Repo
 
