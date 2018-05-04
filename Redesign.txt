@@ -1,8 +1,7 @@
 PAGE REDESIGN TASK LIST
 
-
-  General
-    - Make sure everything works
+  Projects
+    - Check project links and make sure they work
 
   HTML
     - Projects page layout design
