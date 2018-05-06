@@ -1,5 +1,8 @@
 PAGE REDESIGN TASK LIST
 
+  JS
+    - Use JS front-end
+
   Projects
     - Check project links and make sure they work
 
@@ -10,6 +13,7 @@ PAGE REDESIGN TASK LIST
   CSS
     - Colour scheme
     - Fonts
+---
 
   ENDSTATE
     - Single page bio and summary that links to projects.
