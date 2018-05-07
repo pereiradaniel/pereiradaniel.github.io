@@ -1,5 +1,9 @@
 PAGE REDESIGN TASK LIST
 
+  Design
+    - Build simple design style
+    - Build as much with HTML and CSS as possible
+
   JS
     - Use JS front-end
 
