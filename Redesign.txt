@@ -5,7 +5,8 @@ PAGE REDESIGN TASK LIST
     - Build as much with HTML and CSS as possible
 
   JS
-    - Use JS front-end
+    - Deploy without JS front-end
+    - Use JS front-end after Vue js tutorial
 
   Projects
     - Check project links and make sure they work
