@@ -18,6 +18,7 @@ PAGE REDESIGN TASK LIST
   CSS
     - Colour scheme
     - Fonts
+
 ---
 
   ENDSTATE
@@ -25,3 +26,8 @@ PAGE REDESIGN TASK LIST
     - Page links to linkedin profile
     - Page uses javascript front end
     - Links to hire?
+
+---
+
+  SKETCHES
+    - Draw outline for single page app
