@@ -16,6 +16,7 @@ Visit my [LinkedIn][linkedinlink] page to hire me for projects.
 - Watch web development tutorials and other related videos on my [YouTube channel][youtubelink].
 - Read my [web development blog][bloglink].
 - View my profile on [LinkedIn][linkedinlink].
+- [Github profile][gitHubPage]
 
 ---
 
@@ -25,3 +26,4 @@ _*Daniel Paul Grech Pereira 2018*_
 [youtubelink]: <https://www.youtube.com/c/danielpaulgrechpereira>
 [bloglink]: <https://pereirawebdev.blogspot.ca>
 [linkedinlink]: <https://ca.linkedin.com/in/danielpaulpereira>
+[gitHubPage]: <https://github.com/pereiradaniel>
