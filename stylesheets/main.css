@@ -285,7 +285,7 @@ button {
 /* BODY ELEMENTS */
 	.body-wrapper {
 		margin: auto;
-		max-width: fit-content;
+		width: 100%;
 		max-height: max-content;
 	}
 	.section {
