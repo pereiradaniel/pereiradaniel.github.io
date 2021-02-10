@@ -161,6 +161,14 @@ button {
 		font-family: 'Atari';
 	}
 
+	@font-face {
+		font-family: "font-mfizz";
+		src: url(../fonts/font-mfizz.ttf);
+	}
+	.font-mfizz {
+		font-family: 'Atari';
+	}
+
 	/* ==== FONT STYLES ==== */
 	.weight600 {
 		font-weight: 600;
@@ -371,7 +379,7 @@ button {
 /* SPECIAL ELEMENTS */
 	.profile-img {
 		padding: 1em;
-		max-height: 100px;
+		max-height: 200px;
 		display: block;
 		border-radius: 50%;
 		margin-left: auto;
