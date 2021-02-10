@@ -286,6 +286,7 @@ button {
 	.body-wrapper {
 		margin: auto;
 		max-width: 1200px;
+		max-height: max-content;
 	}
 	.section {
 		padding: 0.25em;
