@@ -142,9 +142,6 @@ button {
 			display: inline-block;
 		}
 	}
-	.button-row {
-		margin: 2em;
-	}
 	.button {
 		border: 1px solid black;
 		font-family: 'Inconsolata';
