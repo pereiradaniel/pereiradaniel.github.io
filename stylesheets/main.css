@@ -78,9 +78,6 @@ button {
 	.margin-auto {
 		margin: auto;
 	}
-	.top-margin {
-		margin-top: 1em;
-	}
 	.inline-block {
 		display: inline-block;;
 	}
@@ -382,7 +379,7 @@ button {
 		padding: 1em;
 		max-height: 200px;
 		display: block;
-		border-radius: 50%;
+		border-radius: 20%;
 		margin-left: auto;
 		margin-right: auto;
 	}
